@@ -1,0 +1,11 @@
+.nav-tabs .nav-item .nav-link{
+background-color: #0080FF; 
+color: #000000
+}
+.nav-tabs .nav-item .nav-link.active {
+    color: #0080FF;
+  }
+  
+  .jumbotron{
+padding-top: 100px;
+  }
