@@ -10,3 +10,17 @@ padding-top: 100px;
   body{
     padding-top: 100px;
   }*/
+  .navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+  }
+  .navbar{
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+  }
+  #content{
+    background-color: aquamarine;
+  }
