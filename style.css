@@ -10,10 +10,12 @@
   .nav-bar .nav-link .nav-item {
     font-style: bold;
   }
+  h1{
+    text-align: center;
+  }
   @media screen and (min-width:992px ){
   .headshot {
-   border-radius: 50%;
-    width: 25%;
+   width: 25%;
   }
 }
 .header {
