@@ -1,27 +1,26 @@
-.nav-item .nav-link{
+.nav-item .nav-link {
     background-color:  rgb(184, 61, 184);
     border-color: black;
     border-width: 1px;
   }
-  .nav-item active{
+  .nav-item active {
     background-color: white;
     border-width: 1px;
   }
-  .nav-bar .nav-link .nav-item{
-   
+  .nav-bar .nav-link .nav-item {
     font-style: bold;
   }
-.header{
+.header {
   font-size: 24px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.btn{
+.btn {
   background-color: yellow;
   color: black;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgb(184, 61, 184); 
 }
 /*@media (max-width: 991.98px) {
