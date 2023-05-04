@@ -1,3 +1,19 @@
-.nav-tabs .nav-item .nav-link {
-    background-color: #0080FF;
+.nav-item .nav-link{
+    background-color:  rgb(184, 61, 184);
+    border-color: black;
+    border-width: 1px;
   }
+  .nav-item active{
+    background-color: white;
+    border-width: 1px;
+  }
+  .nav-bar .nav-link .nav-item{
+   
+    font-style: bold;
+  }
+.header{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
