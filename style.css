@@ -17,3 +17,49 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.btn{
+  background-color: yellow;
+  color: black;
+}
+.btn:hover{
+  background-color: rgb(184, 61, 184); 
+}
+/*@media (max-width: 991.98px) {
+  .card{
+    width: 100%;
+  }
+}*/
+/*@media screen and (min-width: 768px) {
+  .card col { 
+    width: 50%;
+}
+}*/
+.jumbotron-fluid {
+  margin-top: 50px;
+}
+
+/*.card-col{
+  width: 18rem;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}*/
+/*@media screen and (mid-width: 480px) {
+.card col {
+  width: 50%;
+}*/
+
+/*.card col {
+  @include media-breakpoint-only(lg) {
+    display: inline ; 
+
+  }*/
+ /* .conatiner-fluid {
+    align-content: space-between;
+  }*/
+/*@media screen and (min-width: 768px) {
+  .card col display: in
+}*/
+
