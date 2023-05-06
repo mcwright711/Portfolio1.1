@@ -68,7 +68,7 @@ body {
 /*.card col {
   @include media-breakpoint-only(lg) {
     display: inline ; 
-
+list-group-item list-group-item-action
   }*/
  /* .conatiner-fluid {
     align-content: space-between;
@@ -76,7 +76,25 @@ body {
 /*@media screen and (min-width: 768px) {
   .card col display: in
 }*/
-.card mb-3 {
+/*.card mb-3 {
   margin-top: 10px;
   padding-top: 10px;
+}*/
+.icon {
+  padding: 10px;
+}
+footer .row h2 {
+  display: inline-block; 
+ /* margin-bottom: 20px;
+  padding-bottom: 15px;*/
+}
+.aupost {
+  position: relative;
+  height: 300px;
+  overflow-y: scroll;
+  display: block;
+  list-style-type: none;
+}
+nav {
+  list-style-type: none;
 }
