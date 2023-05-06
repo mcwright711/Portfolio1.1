@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $('aupost').scrollspy({ target: '#list-sidebar' })
+    $('design-process').scrollspy({target: '#list-sidebar'});
 });

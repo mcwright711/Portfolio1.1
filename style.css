@@ -88,13 +88,28 @@ footer .row h2 {
  /* margin-bottom: 20px;
   padding-bottom: 15px;*/
 }
-.aupost {
+.list-group-item {
   position: relative;
-  height: 300px;
-  overflow-y: scroll;
+  list-style-type: none;
+  /*overflow-y: scroll;
   display: block;
-  list-style-type: none;
+  list-style-type: none;*/
 }
-nav {
-  list-style-type: none;
+.affix {
+  top: 20px;
+  z-index: 9999  !important
+}
+@media screen and (max-width: 810px) {
+#list-sidebar {
+  margin-left: 150px;
+}
+}
+.list-group-item-action:hover {
+  background-color:rgb(184, 61, 184);
+}
+.design-process {
+  margin-top: 30px;
+}
+p {
+  margin: 15px;
 }
