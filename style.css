@@ -11,8 +11,10 @@ body {
     border-width: 1px;
   }
   .nav-bar .nav-link .nav-item {
-    font-style: bold;
-  }
+}
+.card-body{
+  padding: 20px;
+}
   h1{
     text-align: center;
   }
@@ -50,6 +52,10 @@ body {
 }*/
 .jumbotron-fluid {
   margin-top: 50px;
+}
+.img-fluid {
+  align-items: center;
+  justify-content: center;
 }
 
 /*.card-col{
