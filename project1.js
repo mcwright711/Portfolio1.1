@@ -22,3 +22,11 @@
         bottom: $('footer').outerHeight() + 50
     }
 })*/
+/*$('.ul').affix({offset: {top: 150} });*/
+/*$(".card" ).hover(
+    function() {
+      $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+    }, function() {
+      $(this).removeClass('shadow-lg');
+    }
+  ); */ 
