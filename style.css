@@ -54,6 +54,15 @@ body {
   text-align: center;
 
 }
+@media screen and (min-width: 768px) {
+#judemock {
+  padding-bottom: 150px;
+}
+}
+/*.card-body{
+  justify-content: baseline;
+  align-items:last baseline;
+}*/
 /*@media (max-width: 991.98px) {
   .card{
     width: 100%;
@@ -114,6 +123,7 @@ footer .row h2 {
  /* margin-bottom: 20px;
   padding-bottom: 15px;*/
 }
+/*project1 page*/
 .list-group-item  {
   position: relative;
   display: block;
@@ -141,4 +151,8 @@ footer .row h2 {
 }
 p {
   margin: 15px;
+}
+
+.media {
+  padding-bottom: 75px;
 }
