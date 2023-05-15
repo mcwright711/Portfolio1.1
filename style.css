@@ -76,6 +76,10 @@ body {
 .jumbotron-fluid {
   margin-top: 50px;
 }
+
+.jumbotron h2 {
+text-align: center;
+}
 #hero {
   background-color: white;
 }
