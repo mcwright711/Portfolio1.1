@@ -10,6 +10,7 @@ body {
     background-color: white;
     border-width: 1px;
   }
+ 
 .card-body{
   padding: 20px;
 }
@@ -162,3 +163,10 @@ p {
 .media {
   padding-bottom: 250px;
 }
+#aumock {
+  align-items: space-around;
+}
+#judemock {
+  align-items: space-around;
+}
+  
