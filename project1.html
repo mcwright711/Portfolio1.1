@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Case Study</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="austyle.css">
 </head>
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -24,12 +25,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-item">
+           <!--<li class="nav-item">
               <a class="nav-link">Contact</a>
-            </li>
+            </li>-->
             <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle active" href="#"role="button" data-toggle="dropdown"aria-expanded="false">Projects</a>
+                <a class="nav-link dropdown-toggle active" href="#"role="button" data-toggle="dropdown"aria-expanded="false">Case Studies</a>
                 <div class="dropdown-menu">
+                  <a class="dropdown-item">Mobile App</a>
                   <a class="dropdown-item disabled" href="#">Au Post</a>
                   <a class="dropdown-item" href="./Project2.html">St. Jude</a>
                 </div>
@@ -39,7 +41,21 @@
           </div>
         </nav>
 <!--informational header-->
-      <div class="jumbotron" margin-top="200px"><h1 class="display-4">Government Page Redesign</h1><h2>Australia Post Office</h2><img src="media/aumockupsplain.png" alt="aupost mockup" class="img-fluid rounded" max-width="100%" height="auto">
+      <div class="jumbotron bg-white" margin-top="200px"><div class="text-center"><h1 class="display-4">Government Page Redesign</h1><h2>Australia Post Office</h2></div>
+        <!--Spy modal with scroll-->
+        <div class="row">
+        <div id="list-example" class="list-group col-sm-2">
+          <!--data-offset-top="200"-->
+            <h2>My Design Process</h2>
+           <a class="list-group-item list-group-item-action" href="#list-item-1">Empathize</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Define</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Ideate</a>
+            <a class="list-group-item list-group-item-action"  href="#list-item-4">Prototype</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Test</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Solution</a>
+            </div>
+            <img src="media/aumockupsplainsmall.png" alt="aupost mockup" class="img-thumbnail rounded-small mr-auto">
+          </div>
         
         <p class="lead">Project Overview</p>
         <hr class="my-4">
@@ -107,22 +123,6 @@
           </div>
         </div>
       </div>-->
-      
-      <!--Spy modal with scroll-->
-        <div class="container">
-        <div class="row">
-        <div id="list-example" class="list-group col-sm-2 list-unstyled" data-spy="affix">
-        <!--data-offset-top="200"-->
-          <h2>My Design Process</h2>
-         <ul>
-         <li><a class="list-group-item list-group-item-action" href="#list-item-1">Empathize</a></li>
-          <li><a class="list-group-item list-group-item-action" href="#list-item-2">Define</a></li>
-          <li><a class="list-group-item list-group-item-action" href="#list-item-3">Ideate</a></li>
-          <li><a class="list-group-item list-group-item-action"  href="#list-item-4">Prototype</a></li>
-          <li><a class="list-group-item list-group-item-action" href="#list-item-5">Test</a></li>
-          <li><a class="list-group-item list-group-item-action" href="#list-item-6">Solution</a></li>
-          </ul>
-          </div>
       <!--div class="design-process-->
         <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example col-sm-10">
           <div class="media">
@@ -139,13 +139,12 @@
       </div>
       <div class="media">
         <h5 class="media-body mr-3">Usability Testing</h5>
-        <h6 class="mt-0 mb-1">Objective</h6>
         <p>To better understand where users struggle using the australia post office website, which parts aren't functional, and where the navigation and homepage can be improved.</p>
-        <h6 class="media-body mt-0 mb-1">KPI's</h6>
+        <!--<h6 class="media-body mt-0 mb-1">KPI's</h6>
         <p>Do users struggle with using the navigation and website? Does the user have to click the "Back" button because navigation was unclear?</p>  </div>
-        <div class="media">
-        <img src="./media/clippedpainpoints.png" alt="Users wished there was more iconography and clearer navigation as well as CTA buttons." class="img-fluid mt-0 shadow">
-        <h5 class=" media-body mt-0">Pain Points</h5><p>Usability tests were helpful to understand where users struggled with the navigation and homepage.</p></div>
+        <div class="media">-->
+        <img src="./media/clippedpainpoints.png" alt="Users wished there was more iconography and clearer navigation as well as CTA buttons." class="img-thumbnail rounded-small mr-auto shadow">
+        <!--<h5 class=" media-body mt-0">Pain Points</h5><p>Usability tests were helpful to understand where users struggled with the navigation and homepage.</p>--></div>
 
         <div class="media">
           <div class="media-body">

@@ -1,0 +1,38 @@
+/*project1 page*/
+.scrollspy-example  {
+    position: relative;
+    display: block;
+    list-style-type: none;
+  }
+  
+  #list-item-1 {
+    align-items:center;
+    justify-content:space-evenly;
+   }
+  .affix {
+    top: 20px;
+    z-index: 9999  !important
+  }
+  @media screen and (max-width: 810px) {
+  #list-example {
+    margin-left: 150px;
+    list-style: none;
+  }
+  }
+  p {
+    margin: 15px;
+  }
+  
+  .media {
+    padding-bottom: 200px;
+  }
+  #list-example {
+    list-style: none;
+  }
+  .scrollspy-example {
+    height:auto;
+    overflow-y: scroll;
+  }
+  .row .img-fluid {
+    align-items: space-between;
+  }

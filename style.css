@@ -10,37 +10,17 @@ body {
     background-color: white;
     border-width: 1px;
   }
- 
-.card-body{
-  padding: 20px;
-}
   h1{
     text-align: center;
   }
- #list-item-1 {
-  align-items:center;
-  justify-content:space-evenly;
- }
  .card:hover {
   box-shadow: 10px 10px lightgrey;
   transition: all 0.3s ease;
  }
- #aumock:hover {
-  box-shadow: 10px 10px lightgrey;
-  transition: all 0.3s ease;
- }
- #judemock:hover {
-  box-shadow: 10px 10px lightgrey;
-  transition: all 0.3s ease;
- }
-  @media screen and (min-width:992px ){
-  .headshot {
-   width: 25%;
-  }
 .header {
   font-size: 24px;
   text-align: center;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   margin-bottom: 20px;
 }
 .btn {
@@ -50,16 +30,7 @@ body {
 .btn:hover {
   background-color: #E3A6FF; 
 }
-.card-header {
-  font-size: 18px;
-  text-align: center;
 
-}
-@media screen and (min-width: 768px) {
-#judemock {
-  padding-bottom: 160px;
-}
-}
 /*.card-body{
   justify-content: baseline;
   align-items:last baseline;
@@ -74,20 +45,7 @@ body {
     width: 50%;
 }
 }*/
-.jumbotron-fluid {
-  margin-top: 50px;
-}
 
-.jumbotron h2 {
-text-align: center;
-}
-#hero {
-  background-color: white;
-}
-.img-fluid {
-  align-items: center;
-  justify-content: center;
-}
 /*#judemock:hover {
   background-color: #CEBCAE; 
 }
@@ -124,31 +82,14 @@ list-group-item list-group-item-action
 }*/
 .icon {
   padding: 10px;
+ align-self: center;
 }
 footer .row h2 {
   display: inline-block; 
  /* margin-bottom: 20px;
   padding-bottom: 15px;*/
 }
-/*project1 page*/
-.list-group-item  {
-  position: relative;
-  display: block;
-  list-style-type: none;
-}
-#list-sidebar {
-  list-style-type: none;
-}
 
-.affix {
-  top: 20px;
-  z-index: 9999  !important
-}
-@media screen and (max-width: 810px) {
-#list-sidebar {
-  margin-left: 150px;
-}
-}
 /*.list-group-item-action:hover {
   background-color:#E3A6FF;
 }*/
@@ -156,17 +97,3 @@ footer .row h2 {
   margin-top: 30px;
   overflow-y: scroll;
 }*/
-p {
-  margin: 15px;
-}
-
-.media {
-  padding-bottom: 250px;
-}
-#aumock {
-  align-items: space-around;
-}
-#judemock {
-  align-items: space-around;
-}
-  

@@ -1,0 +1,43 @@
+.jumbotron {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .jumbotron h2 {
+  text-align: center;
+  }
+  .img-fluid {
+    align-items: center;
+    justify-content: center;
+  }
+  .card-header {
+    font-size: 18px;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+  #judemock {
+    padding-bottom: 160px;
+  }
+  }
+  #aumock:hover {
+    box-shadow: 10px 10px lightgrey;
+    transition: all 0.3s ease;
+   }
+   #judemock:hover {
+    box-shadow: 10px 10px lightgrey;
+    transition: all 0.3s ease;
+   }
+    @media screen and (min-width:992px ){
+    .headshot {
+     width: 25%;
+    }
+    .card-body{
+        padding: 20px;
+      }
+      #aumock {
+        align-items: space-around;
+      }
+      #judemock {
+        align-items: space-around;
+      }
+    }
