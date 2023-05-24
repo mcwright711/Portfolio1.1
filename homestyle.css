@@ -6,6 +6,9 @@
   padding-left: 50px;
   padding-bottom: 50px;
 }
+/*h3 {
+  padding-bottom: 50px;
+}*/
   .jumbotron h2 {
   text-align: center;
   }
@@ -34,7 +37,7 @@
   .typing {
     width: 21em; 
     position: absolute;
-    height: 100px;
+    height: 120px;
     opacity: 0;
     margin: 10px;
     overflow: hidden;
