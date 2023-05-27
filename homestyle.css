@@ -17,7 +17,9 @@ h2 {
 }
 .row {
   padding-bottom: 150px;
+  justify-content:center;
 }
+
 /*h3 {
   padding-bottom: 50px;
 }
@@ -114,9 +116,9 @@ h2 {
     text-align: center;
   }
   @media screen and (min-width: 768px) {
-  #judemock {
+  /*#judemock {
     padding-bottom: 160px;
-  }
+  }*/
   }
   #aumock:hover {
     box-shadow: 10px 10px lightgrey;
