@@ -6,5 +6,5 @@ $("#restart").queue(function() {
   setInterval(function() {
       original.before(newClass);
       $("." + original.attr("class") + ":last").remove();
-  },47000);
+  },48000);
 });

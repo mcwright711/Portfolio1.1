@@ -1,10 +1,15 @@
-.jumbotron {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
+
 .media {
-  padding-left: 50px;
+  padding-left: 150px;
   padding-bottom: 50px;
+}
+.col {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 100px;
+}
+h1 {
+  padding-bottom: 100px;
 }
 /*h3 {
   padding-bottom: 50px;
@@ -54,10 +59,10 @@
     animation-delay: 24s; 
   }
   .typing:nth-child(5) {  
-    animation-delay: 32s; 
+    animation-delay: 40s; 
   }
   .typing:nth-child(6) { 
-    animation-delay: 40s;
+    animation-delay: 60s;
   }
   /* Keyframes for animation */ 
   @keyframes type {
@@ -77,8 +82,8 @@
   @keyframes "blink" {
     from, to {
         color: transparent;
-    }
-    50% {color: white;}
+    
+    50% {color: white;}}
   }
  
   
