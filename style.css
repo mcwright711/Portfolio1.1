@@ -85,17 +85,17 @@ list-group-item list-group-item-action
  padding: 10px;
  align-self: center;
 }
-footer h2 {
+/*footer h2 {
   display: inline-block; 
   text-align: left;
   font-weight:500;
  /* margin-bottom: 20px;
-  padding-bottom: 15px;*/
+  padding-bottom: 15px;
 }
 footer p {
   display: inline-block;
   text-align: left;
-}
+}*/
 
 /*.list-group-item-action:hover {
   background-color:#E3A6FF;
@@ -104,3 +104,10 @@ footer p {
   margin-top: 30px;
   overflow-y: scroll;
 }*/
+footer {
+  background-color: #E3A6FF;
+  padding: 10px 20px 10px 20px;
+  text: black;
+ }
+
+ 

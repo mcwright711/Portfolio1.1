@@ -1,4 +1,6 @@
-
+header {
+  margin: 0;
+}
 .media {
   padding-left: 150px;
   padding-bottom: 50px;
@@ -13,10 +15,10 @@
 }*/
 h2 {
   text-align: center;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
-.row {
-  padding-bottom: 150px;
+.card {
+  margin-bottom: 150px;
   justify-content:center;
 }
 
@@ -142,4 +144,11 @@ h2 {
         align-items: space-around;
       }
     }
-   
+  .hero {
+    margin-bottom: 150px;
+    background-image: url('media/hero_background.png');
+    background-size: cover; 
+  }
+
+  
+  

@@ -28,6 +28,9 @@
   background-color: #E3A6FF;
   align-content: space-evenly;
 }
+.jumbotron {
+  padding-top: 0;
+}
 .nav-item .nav-link {
   color: black;
 }
@@ -38,7 +41,8 @@
   }
   
   .media {
-    padding-bottom: 200px;
+    padding: 20px;
+    margin-bottom: 200px;
   }
   #list-example {
     list-style: none;
