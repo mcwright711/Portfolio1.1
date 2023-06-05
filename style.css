@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+  
   font-family: 'Raleway', sans-serif;
 }
 .nav-item .nav-link {
@@ -9,15 +9,15 @@ body {
   }
   .nav-item active {
     background-color: white;
-    border-width: 1px;
+    border-width: 2px;
   }
   h1{
     text-align: center;
   }
- .card:hover {
+ /*.card:hover {
   box-shadow: 10px 10px lightgrey;
   transition: all 0.3s ease;
- }
+ }*/
 .header {
   font-size: 30px;
   text-align: center;
@@ -25,11 +25,13 @@ body {
   margin-bottom: 20px;
 }
 .btn {
-  background-color: yellow;
+  background-color: white;
   color: black;
+  border-width: 2px;
+  border-color: black;
 }
 .btn:hover {
-  background-color: #E3A6FF; 
+  background-color: gray; 
 }
 
 /*.card-body{
@@ -106,8 +108,9 @@ footer p {
 }*/
 footer {
   background-color: #E3A6FF;
-  padding: 10px 20px 10px 20px;
+  padding: 20px 40px 10px 20px;
   text: black;
+  margin: 0px;
  }
 
  

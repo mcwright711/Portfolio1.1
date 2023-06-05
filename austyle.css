@@ -16,6 +16,11 @@
   h2 {
     padding-bottom: 80px;
   }
+  .intro {
+    margin-top: 24px;
+    padding: 10px;
+  }
+ 
 #navbar-example2 {
   scroll-margin-top: 141px;
   position: sticky;
@@ -54,3 +59,7 @@
   /*.row .img-fluid {
     align-items: space-between;
   }*/
+  .img-thumbnail {
+    margin-right: 10px;
+    margin-left: 10px;
+  }

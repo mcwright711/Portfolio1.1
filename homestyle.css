@@ -1,6 +1,3 @@
-header {
-  margin: 0;
-}
 .media {
   padding-left: 150px;
   padding-bottom: 50px;
@@ -117,25 +114,13 @@ h2 {
     font-size: 18px;
     text-align: center;
   }
-  @media screen and (min-width: 768px) {
-  /*#judemock {
-    padding-bottom: 160px;
-  }*/
-  }
-  #aumock:hover {
-    box-shadow: 10px 10px lightgrey;
-    transition: all 0.3s ease;
-   }
-   #judemock:hover {
-    box-shadow: 10px 10px lightgrey;
-    transition: all 0.3s ease;
-   }
+  
     @media screen and (min-width:992px ){
     .headshot {
      width: 25%;
     }
     .card-body{
-        padding: 20px;
+        margin: 20px;
       }
       #aumock {
         align-items: space-around;
@@ -144,11 +129,23 @@ h2 {
         align-items: space-around;
       }
     }
-  .hero {
-    margin-bottom: 150px;
-    background-image: url('media/hero_background.png');
-    background-size: cover; 
+  header {
+    margin: 0;
   }
-
+  footer {
+    margin: 0;
+    margin-left:0;
+  }
   
-  
+  .cards {
+    padding: 5px;
+    margin: 15px;
+    padding-bottom: 150px;
+  }
+  h3 {
+    display: flex;
+    align-items: center;
+  }
+.card-header {
+  margin: 0;
+}
