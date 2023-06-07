@@ -14,10 +14,6 @@ body {
   h1{
     text-align: center;
   }
- /*.card:hover {
-  box-shadow: 10px 10px lightgrey;
-  transition: all 0.3s ease;
- }*/
 .header {
   font-size: 30px;
   text-align: center;
@@ -33,84 +29,13 @@ body {
 .btn:hover {
   background-color: gray; 
 }
-
-/*.card-body{
-  justify-content: baseline;
-  align-items:last baseline;
-}*/
-/*@media (max-width: 991.98px) {
-  .card{
-    width: 100%;
-  }
-}*/
-/*@media screen and (min-width: 768px) {
-  .card col { 
-    width: 50%;
-}
-}*/
-
-/*#judemock:hover {
-  background-color: #CEBCAE; 
-}
-#aumock:hover {
-background-color:#A0A0A0;
-}*/
-/*.card-col{
-  width: 18rem;
-}
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
-}*/
-/*@media screen and (mid-width: 480px) {
-.card col {
-  width: 50%;
-}*/
-
-/*.card col {
-  @include media-breakpoint-only(lg) {
-    display: inline ; 
-list-group-item list-group-item-action
-  }*/
- /* .conatiner-fluid {
-    align-content: space-between;
-  }*/
-/*@media screen and (min-width: 768px) {
-  .card col display: in
-}*/
-/*.card mb-3 {
-  margin-top: 10px;
-  padding-top: 10px;
-}*/
 .icon {
  padding: 10px;
  align-self: center;
 }
-/*footer h2 {
-  display: inline-block; 
-  text-align: left;
-  font-weight:500;
- /* margin-bottom: 20px;
-  padding-bottom: 15px;
-}
-footer p {
-  display: inline-block;
-  text-align: left;
-}*/
-
-/*.list-group-item-action:hover {
-  background-color:#E3A6FF;
-}*/
-/*.design-process {
-  margin-top: 30px;
-  overflow-y: scroll;
-}*/
 footer {
   background-color: #E3A6FF;
   padding: 20px 40px 10px 20px;
   text: black;
   margin: 0px;
  }
-
- 

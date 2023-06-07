@@ -7,55 +7,10 @@
   padding-left: 30px;*/
   padding-bottom: 100px;
 }
-/*h1 {
-  padding-bottom: 100px;
-}*/
-h2 {
-  text-align: center;
-  margin-bottom: 100px;
-}
 .card {
   margin-bottom: 150px;
   justify-content:center;
 }
-
-/*h3 {
-  padding-bottom: 50px;
-}
-  .jumbotron h2 {
-  text-align: center;
-  }*/
-  /*html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;*/
-    /*background-color: #000000;*/
-    /*font-family:sans-serif;
-  }*/
-  /* Centers and Aligns Text 
-  .centered {
-    margin: 0 auto;
-    width: 100%;
-    text-align: left;
-  }*/
-
-  /* Sets Styling, Positioning and Font Styling for Intro Text */
- /* .container {
-    font-weight: 500;
-    font-size: 50px;
-    color: black;
-    display: center;
-  }*/
-  /* Sets styles and CSS animation values for typing animation
-  .typing {
-    width: 21em; 
-    position: absolute;
-    height: 120px;
-    opacity: 0;
-    margin: 10px;
-    overflow: hidden;
-    animation: type 24s steps(28);
-  }*/
   .typewriter{
     white-space: nowrap;
     overflow: hidden;
@@ -67,23 +22,6 @@ h2 {
     color:white !important;
     animation: blink 1s infinite;
   }
- /* /* Sets delay for each animated word
-  .typing:nth-child(2) {  
-    animation-delay: 8s;
-  }
-  .typing:nth-child(3) {  
-    animation-delay: 16s;
-  }
-  .typing:nth-child(4) { 
-    animation-delay: 24s; 
-  }
-  .typing:nth-child(5) {  
-    animation-delay: 40s; 
-  }
-  .typing:nth-child(6) { 
-    animation-delay: 60s;
-  }
-  /* Keyframes for animation */ 
   @keyframes typing {
     0% {opacity: 0; width:0;}
     2% {opacity: 1;}
@@ -91,8 +29,6 @@ h2 {
     26% {opacity: 1; width: 0;}
     27% {opacity: 0;}
   }
-
-  /* Curser Animation */
   .blinking-cursor {
     position: relative;
     -ms-animation: 1s blink step-end infinite;
@@ -104,8 +40,6 @@ h2 {
     
     50% {color: white;}}
   }
- 
-  
   .img-fluid {
     align-items: center;
     justify-content: center;
@@ -114,7 +48,6 @@ h2 {
     font-size: 18px;
     text-align: center;
   }
-  
     @media screen and (min-width:992px ){
     .headshot {
      width: 25%;
