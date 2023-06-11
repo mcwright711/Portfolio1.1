@@ -20,15 +20,15 @@ body {
   /*margin-top: 20px;*/
   margin-bottom: 20px;
 }
-.btn {
-  background-color: white;
-  /*color: black;*/
+/*.btn {
+  /*background-color: white;
+  /*color: black;
   border-width: 2px;
   border-color: black;
-}
-.btn:hover {
+}*/
+/*.btn:hover {
   background-color: gray; 
-}
+}*/
 .icon {
  padding: 10px;
  align-self: center;
@@ -42,3 +42,7 @@ footer {
  .btn-sm {
   margin: 10px;
  }
+ h3 {
+  display: flex;
+  align-items: center;
+}
