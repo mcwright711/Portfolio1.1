@@ -22,7 +22,7 @@ body {
 }
 .btn {
   background-color: white;
-  color: black;
+  /*color: black;*/
   border-width: 2px;
   border-color: black;
 }
@@ -38,4 +38,7 @@ footer {
   padding: 20px 40px 10px 20px;
   text: black;
   margin: 0px;
+ }
+ .btn-sm {
+  margin: 10px;
  }
