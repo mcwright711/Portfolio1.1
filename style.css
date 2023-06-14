@@ -2,15 +2,72 @@ body {
   
   font-family: 'Raleway', sans-serif;
 }
-.nav-item .nav-link {
-    background-color:  #E3A6FF;
-    border-color: black;
-    border-width: 1px;
-  }
-  .nav-item active {
+/*.nav-item active {
     background-color: white;
-    border-width: 2px;
+    font-weight: bold;
+    /*border-width: 2px;
+  }*/
+  
+.nav-link {
+    font-weight: bold; 
+    text-transform: uppercase;
+    text-decoration: none;
+    /*padding: 20px 0px;*/
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
   }
+  
+  .nav-item{
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a0;
+  
+}
+.nav-item:after{
+    content: "";
+    position: absolute;
+    background-color: #E3A6FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.nav-item:hover{
+    color: #ffffff;
+}
+.nav-item:hover:after{
+    width: 100%;
+}
+.nav-item:hover:not(.active):not(.no-hover):after,
+.nav-link:hover:not(.active):not(.no-hover):after {
+  /* Your CSS rules for pink underline on hover */
+  border-bottom: 2px #E3A6FF;
+}
+
+.nav-item.active:after,
+.nav-link.active:after {
+  /* Your CSS rules for active state */
+  border-bottom: none;
+  font-weight: bold;
+  opacity: 0;
+   /* Remove the underline */
+  /* Add any additional styles for the active state */
+}
+
+.nav-item.no-hover:after,
+.nav-link.no-hover:after {
+  /* Your CSS rules to remove the hover effect */
+  border-bottom: none;
+}
+.nav-item.active .nav-link.active {
+  border-top: 2px #E3A6FF;
+  border-bottom: 2px #E3A6FF;
+   
+}
+
   h1{
     text-align: center;
   }
