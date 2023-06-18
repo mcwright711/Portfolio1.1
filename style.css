@@ -62,9 +62,8 @@ body {
   /* Your CSS rules to remove the hover effect */
   border-bottom: none;
 }
-.nav-item.active .nav-link.active {
-  border-top: 2px #E3A6FF;
-  border-bottom: 2px #E3A6FF;
+.nav-item.active .nav-link.active  {
+  color: #715380;
    
 }
 

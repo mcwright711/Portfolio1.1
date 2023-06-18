@@ -77,3 +77,6 @@
   margin-bottom: 150px;
   justify-content:center;
 }
+.card  {
+  padding: 0 !important;
+}
