@@ -4,11 +4,11 @@
   }
  
 #navbar-example2 {
-  scroll-margin-top: 141px;
+  /*scroll-margin-top: 141px;*/
   position: sticky;
   top: 141px;
   left: 0;
-  color: black;
+  text: black;
   width: 100%;
   /*padding: 1rem;*/
   list-style-type: none;
@@ -39,6 +39,3 @@
     margin-right: 10px;
     margin-left: 10px;
   }
-.figma-embed {
-  display: flex;
-}

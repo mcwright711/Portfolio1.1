@@ -8,7 +8,7 @@ body {
     /*border-width: 2px;
   }*/
   
-.nav-link {
+.nav-link  {
     font-weight: bold; 
     text-transform: uppercase;
     text-decoration: none;
@@ -19,7 +19,7 @@ body {
     opacity: 0.75;
   }
   
-  .nav-item{
+  .nav-item {
     position: relative;
     text-decoration: none;
     color: #a0a0a0;
