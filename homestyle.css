@@ -31,6 +31,11 @@
     align-items: center;
     justify-content: center;
   }
+ @media screen and (max-width:600px){
+  h3 {
+    text-align: center;
+  }
+ }
   .card-header {
     font-size: 18px;
     text-align: center;
