@@ -1,32 +1,62 @@
   .typewriter{
     white-space: nowrap;
     overflow: hidden;
+    position: relative;
     animation: 
       typing 4.5s,
       blink-caret .75s step-end infinite;
   }
-  span#blink{
-    color:white !important;
+  .typewriter.placeholder {
+    display: inline-block;
+    visibility: hidden;
+  }
+  .typewriter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span#blink {
+    color: white !important;
     animation: blink 1s infinite;
   }
+  
   @keyframes typing {
-    0% {opacity: 0; width:0;}
-    2% {opacity: 1;}
-    14% {opacity: 1; width: 12ch;}
-    26% {opacity: 1; width: 0;}
-    27% {opacity: 0;}
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    2% {
+      opacity: 1;
+    }
+    14% {
+      opacity: 1;
+      width: 12ch;
+    }
+    26% {
+      opacity: 1;
+      width: 0;
+    }
+    27% {
+      opacity: 0;
+    }
   }
+  
   .blinking-cursor {
     position: relative;
     -ms-animation: 1s blink step-end infinite;
     animation: 1s blink step-end infinite;
   }
-  @keyframes "blink" {
-    from, to {
-        color: transparent;
-    
-    50% {color: white;}}
+  
+  @keyframes blink {
+    from,
+    to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
   }
+  
   .img-fluid {
     align-items: center;
     justify-content: center;
