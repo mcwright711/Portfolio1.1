@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./austyle.css">
     <link rel="stylesheet" href="./style.css">
     <title>Case Study</title>
@@ -37,7 +37,6 @@
               </div> 
               </li>
             </ul>
-          </div>
         </nav>
 <!--informational header-->
 <div class="text-center">
@@ -62,8 +61,8 @@
       </li> 
       </nav>
       <div class="jumbotron bg-white">
-            <img src="media/au-mockup-banner.jpg" alt="aupost mockup" class="img-thumbnail rounded-small mr-auto" alt="">
-            <div class="intro bg-light rounded">
+            <img src="media/au-mockup-banner.jpg" alt="aupost mockup" class=" rounded-small mr-auto" alt="">
+            <div class="intro bg-light rounded" >
         <h3>Project Overview</h3>
         <p>Problems: 
           Website megamenu is repetitive, CTA buttons are too far down the page, and the footer menu is overwhelming. </p><break></break><p>
@@ -72,11 +71,10 @@
         </div>
           <hr class="my-4">
         </div>
-        <div>
-          <div class="media">
-          <div class="media-body ml-auto">
-            
-            <h4 id="item1" class="mt-0 mb-1">Empathize</h4>
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="500">
+        <div class="row">
+        <div class="col-sm col-lg-5"> 
+            <h4 id="item1">Empathize</h4>
             <ul>
         <li>Government websites are notorious for having poor user design</li>
         <li>Users are often frustrated trying to find the information they are searching for
@@ -85,11 +83,15 @@
         </li>
        </ul>
       </div>
-         <img class="max-vw-50 img-thumbnail rounded-small mr-auto shadow w-50" src="media/Au Post above the fold2.png" alt="Australia post office homepage">
-         </div>
-         <div class="media align-self-center mr-3">
+      <div class="col-sm-12 col-lg-6 my-auto">
+         <img class="mb-0 img-thumbnail rounded-small shadow" src="media/Au Post above the fold2.png" alt="Australia post office homepage">
+      </div>
+    </div>
+    <div class="row"style="margin-top: 100px;">
+      <div class="col-sm col-lg-5 align-self-center mr-3"> 
          <img class="max-vw-50 img-thumbnail h-50" src="media/protopersonarere.png" alt="proto-persona for Australia Post Office Redesign">
-         <div class="media-body "><h5 class="mt-0">Proto-Persona</h5>
+         </div>
+         <div class="col-sm-12 col-lg-5"><h5 class="mt-0">Proto-Persona</h5>
           <ul>
           <li>Ken owns a small printing business in Australia, where he resides</li>
           <li>As Ken's business has grown, his need for using the postal service has grown
@@ -99,16 +101,20 @@
           </ul>
         </div>
       </div>
-      <div class="media">
-        <div class="media-body">
+      <div class="row"style="margin-top: 100px;">
+        <div class="col-sm-12 col-lg-4">
         <h5 class="mr-3">Usability Testing</h5>
         <strong>Goal: </strong>To better understand <strong>where users struggle</strong> using the Australia Post Office website, which parts<strong> aren't functional,</strong> and <strong>where the site can be improved.</strong>
        </div>
-        <img class="max-vw-50 img-thumbnail rounded-small mr-auto shadow w-50" src="./media/clippedpainpoints.png" alt="Users wished there was more iconography and clearer navigation as well as CTA buttons.">
+       <div class="col-sm"></div>
+       <div class="col-sm-12 col-lg-6">
+        <img class="img-thumbnail rounded-small mr-auto shadow" src="./media/clippedpainpoints.png" alt="Users wished there was more iconography and clearer navigation as well as CTA buttons.">
+      </div>
        </div>
         <div class="media align-self-center bg-light">
-          <img class="max-vw-50 img-thumbnail ml-3 shadow rounded" src="media/auheuristicevalsnip.png"  alt="heuristic evaluation table">
-          <div class="media-body w-50">
+          <div class="row"style="margin-top: 100px;">
+          <img class="col-sm-12 col-lg-6 img-thumbnail ml-3 shadow rounded" src="media/auheuristicevalsnip.png"  alt="heuristic evaluation table">
+          <div class="col-sm-12 col-lg-4">
           <h5 class="mt-o"> Heuristic Evaluation & Accessibility</h5>
           <ul>
           <li>The biggest issue with the homepage was its accessibility and performance</li>
@@ -116,8 +122,9 @@
            <li>From my own research using the 6 main colors, <strong> the homepage had a 60% failure rate for color contrast accessibility. </strong> You can see my color audit <a href="https://docs.google.com/document/d/1l0A5y9Z8o1qSMFwNXmfq9iB7bsAolx5JOa9MxtEXkR8/edit?usp=sharing">Here</a>.</li></ul>
         </div>
         </div>
-        <div class="media align-self-center bg-light">
-          <div class="media-body">
+      </div>
+        <div class="row"style="margin-top: 100px;">
+          <div class="cols-sm-12 col-lg-5">
             <h4 id="item2">Define</h4>
             <h5 class="mr-3">Card Sort</h5>
        <ol>
@@ -127,22 +134,26 @@
         </li>
       </ol>
         </div>
-        <img class="max-vw-50 img-thumbnail rounded-small mr-auto shadow w-50" src="media/cardsortau.png" alt="Deliver L1 and L2. Id and Doc Services L1 and L2">
+        <div class="col-sm"></div>
+        <img class=" col-sm-12 col-lg-6 img-thumbnail rounded-small m shadow" src="media/cardsortau.png" alt="Deliver L1 and L2. Id and Doc Services L1 and L2">
         </div>
-        <div class="media align-self-center mr-3">
-          <img class="max-vw-50 img-thumbnail shadow rounded" src="media/sitemap.png"  alt="site map L1 collect mail and L1 Post mail">
-          <div class="media-body">
-        <h5 class="text-nowrap w-50">Updated Site Map</h5>
+        <div class="row"style="margin-top: 100px;">
+        <div class="col-sm-12 col-lg-6 ">
+          <img class="img-thumbnail shadow rounded" src="media/sitemap.png"  alt="site map L1 collect mail and L1 Post mail">
+          </div>
+          <div class="col-sm-12 col-lg-5">
+        <h5 class="text-nowrap">Updated Site Map</h5>
         <p>Many items were nested farther than the L2. The 'Tools' section was deleted and converted into a CTA bar that was visible above the fold.
         </p>
         </div>
         </div>
-        <div class="media">
-          <div class="media-body">        
+      
+        <div class="row"style="margin-top: 100px;">
+          <div class="col-sm-12 col-lg-6">        
             <h4 id="item3">Ideate</h4>
         <p>My efforts were concentrated on the <strong> main navigation</strong> for desktop and mobile views. It went through multiple iterations before I was happy with the design. It was <strong>important for it to be responsive. </strong></p>
       </div>
-      <div class="column w-50">
+      <div class="col-sm-12 col-lg-6">
         <div class="d-flex flex-row">
       <img class="card-img rounded-small mr-auto shadow" src="media/au web nav lofi.png"  style="margin-bottom: 10px"alt="web lo-fidelity navigation"></div>
       <div class="d-flex flex-row">
@@ -154,14 +165,17 @@
         <img class="img-thumbnail rounded-small  shadow w-25" src="media/aumobilenavhifi2.png" alt="hi-fidelity mobile navigation"></div>
         </div>
         </div>
-        <div class="media">
-          <img class="max-vw-50 img-thumbnail mr-3 shadow rounded"src="media/auprototype.png" alt="navigatin and interaction prototyping of mobile page">
-          <div class="media-body">
+        <div class="row"style="margin-top: 100px;">
+          <div class="col-sm-12 col-lg-6">
+          <img class="img-thumbnail shadow rounded"src="media/auprototype.png" alt="navigatin and interaction prototyping of mobile page">
+        </div>
+        <div class="col-sm"></div>
+          <div class="col-sm-12 col-lg-5">
         <h4 id="item4">Prototype</h4>
         <p> I originally wanted to incorporate a carousel but ultimately discarded it because it was too distracting from the main content. <strong>The original homepage felt very text heavy and I wanted to make it feel more intuitive.</strong>  I got rid of the horizontal cards and created a simple grid of cards. </p></div>
       </div>
-      <div class="media">
-      <div class="media-body">
+      <div class="row"style="margin-top: 100px;">
+      <div class="col-sm-12 col-lg-6">
         <h4 id="item5">Test</h4>
         <p>The original goal was to improve the navigation so it made the most sense to conduct A/B testing against the original desktop navigation bar and my redesigned desktop navigation bar. 
           <ul>
@@ -172,28 +186,29 @@
         </ul>
         </p>
       </div>
-      <div class="column w-50">
+      <div class="col-sm-12 col-lg-6">
         <div class="d-flex flex-row">
-      <img class="max-vw-50 img-thumbnail rounded-small mr-auto shadow" src="media/original_au_navigation.png" style="margin-bottom: 10px" alt="Navigation: receiving, sending, money & insurance, ID & Doc services, Shop"></div>
+      <img class="img-thumbnail rounded-small  shadow" src="media/original_au_navigation.png" style="margin-bottom: 10px" alt="Navigation: receiving, sending, money & insurance, ID & Doc services, Shop"></div>
       <div class="d-flex flex-row">
-        <img class="img-thumbnail max-vw-50 rounded-small mr-auto shadow" src="media/auwebnavhifi.png"  style="margin-bottom: 10px" alt="Redesigned navigation: Search, Send post, collect post,  shop online, money & Insurance, ID & Services"></div>
+        <img class="img-thumbnail  rounded-small  shadow" src="media/auwebnavhifi.png"  style="margin-bottom: 10px" alt="Redesigned navigation: Search, Send post, collect post,  shop online, money & Insurance, ID & Services"></div>
       </div>
         </div>
+        <div class="row"style="margin-top: 100px;">
+          <div class="col-sm-12 col-lg-6">
         <h4>Solution & Next Steps</h4><p > Based on the results from the A/B testing, I would 
           <ul>
           <li>combine "Send Post" and "Collect Post" into <strong>"Manage Mail." </strong></li>
           <li>I'd also conduct another <strong>card sort</strong> with those categories, this time modified <strong>with user-input.</strong> </li>
           <li>I'd add <strong>more padding</strong> in the CTA bar and conduct <strong>more usability tests. </strong></li></ul></p>
           <p style="margin-bottom: 100px">I really enjoyed this redesign project and think I made a lot of improvements in general usability and accessibility. <strong>Play around with my desktop working prototype <a href="https://www.figma.com/proto/YAtBESjAv7eEbdPlvujZHX/Au-Post-designs?type=design&node-id=110-724&scaling=min-zoom&page-id=109%3A442&starting-point-node-id=110%3A724">here!</a></strong></p>
-        
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
   <!--/div-->
   <footer>
     <div class="ml-2">
       <h2 class="pb-2">Let's Connect</h2>
-      <div class="row">
+      <div class="row row-footer">
         <i class="linkedin" data-toggle="collapse" data-target="#linkedin" aria-controls="linkedin" aria-expanded="false" aria-label="collapse icon">
           <img class="collapse d-md-block" style="icon" id="linkedin" src="media/linkedin-svgrepo-com (1).svg" class="icon">
         </i>
