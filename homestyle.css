@@ -116,3 +116,9 @@
 .card  {
   padding: 0 !important;
 }
+#lego_modal {
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

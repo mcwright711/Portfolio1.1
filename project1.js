@@ -66,4 +66,6 @@ $(document).ready(function() {
 });
 $('section').scrollspy({target: ".navbar-example2"})
 
-
+setTimeout(function() {
+  $("#lego_modal").fadeIn("slow");
+}, 800);
