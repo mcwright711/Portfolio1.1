@@ -64,4 +64,5 @@ $(document).ready(function() {
     $(this).removeClass('no-hover');
   });
 });
+$('section').scrollspy({target: ".navbar-example2"})
 

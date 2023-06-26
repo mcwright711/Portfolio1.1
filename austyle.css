@@ -15,12 +15,19 @@
   list-style-type: none;
   background-color: #E3A6FF;
   align-content: space-evenly;
+  z-index: 9000;
+}
+#mainav {
+  z-index: 9999;
 }
 .jumbotron {
   padding-top: 0;
 }
 .nav-item .nav-link {
   color: black;
+}
+section {
+  position: relative;
 }
   p {
     margin: 15px;
@@ -39,7 +46,4 @@
     height:auto;
     overflow-y: scroll;
   }
-  .img-thumbnail {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+
