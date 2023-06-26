@@ -28,6 +28,8 @@
 }
 section {
   position: relative;
+  height:auto;
+  overflow-y: scroll;
 }
   p {
     margin: 15px;

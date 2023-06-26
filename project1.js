@@ -64,7 +64,7 @@ $(document).ready(function() {
     $(this).removeClass('no-hover');
   });
 });
-$('section').scrollspy({target: ".navbar-example2"})
+$('section').scrollspy({target: "#navbar-example2"})
 
 setTimeout(function() {
   $("#lego_modal").fadeIn("slow");
