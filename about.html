@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
       (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
           t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "h206cxa4ny");
+      $(document).ready(function() {
+
+// Fade in the .card-columns element on page load
+  $('.card-columns').fadeIn('slow');
+});
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
     
+        /* Check the location of each desired element */
+        $('.hideme').each(function(i) {
+            var top_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it in */
+            if (top_of_object < bottom_of_window){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
   </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,6 +75,7 @@
         <div class="col-sm col-lg-4">
           <img src="media/Marla_lego_figure.webp"  class="lego img-fluid"alt="marla-lego-profile-pic">
         </div>
+        
         <div class="col-sm my-auto">
         <blockquote>You are the only you there is and ever will be... Do not deny the world its one and only chance to bask in your brilliance.</blockquote>
         <p>--Jen Sincero<cite> You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life</cite></p></div>
@@ -58,7 +83,7 @@
       </div>
     </div>
      <div class="card-columns" style="margin-top: 200px">
-        <div class="card rounded">
+        <div class="hideme card rounded">
           <img class="card-img-top img-fluid" src="media/Magical-night-painting.webp" alt="Magical Night Painting">
           <div class="card-body rounded">
             <h5 class="card-title">Arts...</h5>
@@ -66,7 +91,7 @@
             <p class="card-text"><small class="font-weight-normal">"Magical Night"</small></p>
           </div>
         </div>
-        <div class="card p-3 bg-primary text-white ">
+        <div class="hideme card p-3 bg-primary text-white ">
           <blockquote class="blockquote mb-0 ">
             <p class="card-text">Sunday carbs don't count. Those are the Lord's carbs and he wants you to be happy.</p>
             <p class="card-text"><small class="font-weight-normal">
@@ -75,14 +100,14 @@
             </p>
           </blockquote>
         </div>
-        <div class="card rounded">
+        <div class="hideme card rounded">
           <img class="card-img img-fluid" src="media/San_Francisco (1).webp" class="card-img-top" alt="Marla and seal at Pier 39">
           <div class="card-body">
             <h5 class="card-title">Travel</h5>
             <p class="card-text">A trip to California wouldn't be complete without a visit to the pier.</p><p class="card-text"><small class="font-weight-normal">Pier 39, San Francisco, 2022</small></p>
           </div>
         </div>
-        <div class="card rounded">
+        <div class="hideme card rounded">
           <img class="card-img img-fluid" src="media/Butterfly-heart-crossstitch-second-place.webp" alt="state-fair-cross-stitch-second">
           <div class="card-body">
             <h5 class="card-title">& Crafts</h5>
@@ -95,7 +120,7 @@
               </p>
           </div>
         </div>
-        <div class="card rounded">
+        <div class="hideme card rounded">
           <img class="card-img" src="media/color_festival.webp" alt="festival_of_colors">
           <div class="card-body">
           <h5 class="card-title">Community</h5>
@@ -105,7 +130,7 @@
           <p class="card-text"><small class="font-weight-normal">Holi Festival of Colors, 2021</small></p>
         </div>
         </div>
-        <div class="card p-3 bg-primary text-white ">
+        <div class="hideme card p-3 bg-primary text-white ">
           <blockquote class="blockquote mb-0 ">
             <p class="card-text">Every new beginning is some other beginning's end.</p>
             <p class="card-text"><small class="font-weight-normal">
@@ -114,7 +139,7 @@
             </p>
           </blockquote>
         </div>
-        <div class="card rounded">
+        <div class="hideme card rounded">
           <img class="card-img-top" src="media/antelope-island-beach.webp" alt="Antelope island beach">
           <div class="card-body">
             <h5 class="card-title">Photography</h5>
@@ -123,20 +148,21 @@
           </div>
         </div>
         <div class="card">
-          <div class="card p-3 bg-primary text-white ">
+          <div class="hideme card p-3 bg-primary text-white ">
             <blockquote class="blockquote mb-0 ">
               <p class="card-text">Let go of who you think you're supposed to be; embrace who you are.</p>
             <p class="card-text"><small class="font-weight-normal">Brene Brown</small></p>
             </blockquote><cite>The Gifts of Imperfection</cite>
           </div>
         </div>
-        <div class="card rounded">
+        <div class="hideme card rounded">
           <img src="media/bearlake23_optimized.webp" class="card-img-top" alt="kids playing in lake">
           <div class="card-body">
             <h5 class="card-title">R & R</h5><p class="card-text">Bear Lake is one of my favorite places to be. I've made it a habit to go every summer for some well-needed rest and recuperation.</p>
             <p class="card-text"><small class="font-weight-normal">Bear Lake, Utah, 2023</small></p>
             </blockquote>
           </div>
+        </div>
         </div>
       </div class="ml-2">
     <footer style="margin-top: 200px">
@@ -151,7 +177,6 @@
           </div>
         </div>
       </footer>
-      <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
       <script src="./project1.js"></script>
 </body>
