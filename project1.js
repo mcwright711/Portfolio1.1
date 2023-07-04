@@ -10,7 +10,7 @@ $(document).ready(function() {
   });
 
   // Scrollspy effect
-  $('section').scrollspy({ target: "#navbar-example2" });
+ // $('section').scrollspy({ target: "#navbar-example2" });
 
   // Pop-up modal effect
   setTimeout(function() {

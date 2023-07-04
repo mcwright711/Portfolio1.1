@@ -49,3 +49,24 @@ section {
     overflow-y: scroll;
   }
 
+.parallax_row {
+  background-image: url("media/pexels-sam-lion-5709517 (1).webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  position: relative; 
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 50%; /* Add this line to ensure the caption takes up the full height of the parent container */
+  display: flex; /* Add this line to center the text vertically */
+  align-items: center; /* Add this line to center the text vertically */
+  justify-content: center; /* Add this line to center the text horizontally */
+  color: black; 
+  font-size: 2rem; /* Adjust the font size as needed */
+}
