@@ -70,3 +70,7 @@ section {
   color: black; 
   font-size: 2rem; /* Adjust the font size as needed */
 }
+.content {
+  max-width: 500px;
+  margin: auto;
+}
