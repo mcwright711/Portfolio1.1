@@ -1,4 +1,3 @@
-document.write('<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"><\/script>');
 $(document).ready(function() {
   // Add active class to nav-item and nav-link elements when they have the "active" class
   $('.nav-item.active, .nav-link.active').addClass('active');
