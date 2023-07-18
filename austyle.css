@@ -13,7 +13,7 @@
   width: 100%;
   /*padding: 1rem;*/
   list-style-type: none;
-  background-color: #E3A6FF;
+  background-color: #d8f4f3;
   align-content: space-evenly;
   z-index: 9000;
 }
@@ -48,7 +48,7 @@ section {
     height:auto;
     overflow-y: scroll;
   }
-
+  
 .parallax_row {
   background-image: url("media/pexels-sam-lion-5709517 (1).webp");
   background-attachment: fixed;
@@ -57,6 +57,8 @@ section {
   background-size: cover;
   background-color: transparent;
   position: relative; 
+  max-width: none;
+  margin: 0;
 }
 .caption {
   position: absolute;

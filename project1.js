@@ -1,3 +1,4 @@
+document.write('<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"><\/script>');
 $(document).ready(function() {
   // Add active class to nav-item and nav-link elements when they have the "active" class
   $('.nav-item.active, .nav-link.active').addClass('active');
@@ -10,13 +11,17 @@ $(document).ready(function() {
   });
 
   // Scrollspy effect
- // $('section').scrollspy({ target: "#navbar-example2" });
+ $('section').scrollspy({ target: "#navbar-example2" });
 
   // Pop-up modal effect
   setTimeout(function() {
     $("#lego_modal").fadeIn("slow");
   }, 800);
+
+//exclude parallax effect from images
+$('.parallax_row img').addClass('full_width');
 });
+
 
 
 
