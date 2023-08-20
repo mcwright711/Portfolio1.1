@@ -102,7 +102,7 @@ footer {
   display: flex;
   align-items: center;
 }
-.lego {
+/*.lego {
   border-style: solid;
   border-color: black;
   border-width: medium;
@@ -112,4 +112,4 @@ footer {
 .hideme
 {
     opacity:0;
-}
+}*/

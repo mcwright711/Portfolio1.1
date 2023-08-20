@@ -31,7 +31,7 @@ section {
   height:auto;
   overflow-y: scroll;
 }
-  p {
+body{  p {
     margin: 15px;
   }
   .row {
@@ -39,7 +39,7 @@ section {
     margin-left: 20 px;
     margin-right: 20px;
 
-  }
+  }}
 
   #list-example {
     list-style: none;
