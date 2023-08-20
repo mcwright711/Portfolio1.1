@@ -13,7 +13,7 @@
   width: 100%;
   /*padding: 1rem;*/
   list-style-type: none;
-  background-color: #E3A6FF;
+  background-color: #d8f4f3;
   align-content: space-evenly;
   z-index: 9000;
 }
@@ -31,7 +31,7 @@ section {
   height:auto;
   overflow-y: scroll;
 }
-  p {
+body{  p {
     margin: 15px;
   }
   .row {
@@ -39,7 +39,7 @@ section {
     margin-left: 20 px;
     margin-right: 20px;
 
-  }
+  }}
 
   #list-example {
     list-style: none;
@@ -48,4 +48,31 @@ section {
     height:auto;
     overflow-y: scroll;
   }
-
+  
+.parallax_row {
+  background-image: url("media/pexels-sam-lion-5709517 (1).webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  position: relative; 
+  max-width: none;
+  margin: 0;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 50%; /* Add this line to ensure the caption takes up the full height of the parent container */
+  display: flex; /* Add this line to center the text vertically */
+  align-items: center; /* Add this line to center the text vertically */
+  justify-content: center; /* Add this line to center the text horizontally */
+  color: black; 
+  font-size: 2rem; /* Adjust the font size as needed */
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}

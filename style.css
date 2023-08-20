@@ -28,7 +28,7 @@ body {
 .nav-item:after{
     content: "";
     position: absolute;
-    background-color: #E3A6FF;
+    background-color: #398279;
     height: 3px;
     width: 0;
     left: 0;
@@ -44,7 +44,7 @@ body {
 .nav-item:hover:not(.active):not(.no-hover):after,
 .nav-link:hover:not(.active):not(.no-hover):after {
   /* Your CSS rules for pink underline on hover */
-  border-bottom: 2px #E3A6FF;
+  border-bottom: 2px #398279;
 }
 
 .nav-item.active:after,
@@ -63,7 +63,7 @@ body {
   border-bottom: none;
 }
 .nav-item.active .nav-link.active  {
-  color: #674C76;
+  color: #398279;
    
 }
 
@@ -90,7 +90,7 @@ body {
  align-self: center;
 }
 footer {
-  background-color: #E3A6FF;
+  background-color: #d8f4f3;
   padding: 20px 40px 10px 20px;
   text: black;
   margin: 0px;
@@ -102,7 +102,7 @@ footer {
   display: flex;
   align-items: center;
 }
-.lego {
+/*.lego {
   border-style: solid;
   border-color: black;
   border-width: medium;
@@ -112,4 +112,4 @@ footer {
 .hideme
 {
     opacity:0;
-}
+}*/
