@@ -3,11 +3,11 @@ body {
   /*font-family: 'Raleway', sans-serif;*/
   padding: 10px;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
   font-family: 'Lato', sans-serif;
 }
 
-p, a {
+p, a, h3 {
   font-family: 'Poppins', sans-serif;
 }
 /*.nav-item active {
