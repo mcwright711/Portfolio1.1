@@ -80,6 +80,8 @@ body{  p {
 .content {
   max-width: 500px;
   margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .img-thumbnail {
   margin-bottom: 25px;
