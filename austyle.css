@@ -16,6 +16,10 @@
   background-color: #d8f4f3;
   align-content: space-evenly;
   z-index: 9000;
+  @media screen and (max-width: 767px) {
+    display: column;
+    
+  }
 }
 #mainav {
   z-index: 9999;
