@@ -13,9 +13,9 @@ $(document).ready(function() {
  $('section').scrollspy({ target: "#navbar-example2" });
 
   // Pop-up modal effect
-  setTimeout(function() {
-    $("#lego_modal").fadeIn("slow");
-  }, 800);
+  //setTimeout(function() {
+  // $("#lego_modal").fadeIn("slow");
+  //}, 800);
 
 //exclude parallax effect from images
 $('.parallax_row img').addClass('full_width');

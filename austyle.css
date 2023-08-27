@@ -7,7 +7,7 @@
 #navbar-example2 {
   /*scroll-margin-top: 141px;*/
   position: sticky;
-  top: 141px;
+  top: 135px;
   left: 0;
   text: black;
   width: 100%;
@@ -71,8 +71,12 @@ body{  p {
   justify-content: center; /* Add this line to center the text horizontally */
   color: black; 
   font-size: 2rem; /* Adjust the font size as needed */
+
 }
 .content {
   max-width: 500px;
   margin: auto;
+}
+.img-thumbnail {
+  margin-bottom: 25px;
 }
