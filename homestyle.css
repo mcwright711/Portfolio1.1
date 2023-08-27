@@ -74,7 +74,7 @@
     .headshot {
      width: 25%;
     }
-    .card-body{
+    /*.card-body{
         margin: 20px;
       }
       #aumock {
@@ -82,7 +82,7 @@
       }
       #judemock {
         align-items: space-around;
-      }
+      }*/
     }
   header {
     margin: 0;
@@ -92,7 +92,7 @@
     margin: 0;
     margin-left:0;
   }
-  .cards {
+ /* .cards {
     padding: 5px;
     margin: 15px;
     padding-bottom: 150px;
@@ -109,13 +109,13 @@
   padding-left: 30px;
   padding-bottom: 100px;
 }*/
-.card {
+/*.card {
   margin-bottom: 150px;
   justify-content:center;
 }
 .card  {
   padding: 0 !important;
-}
+}*/
 /*#lego_modal {
  opacity: 0;
   position: absolute;
