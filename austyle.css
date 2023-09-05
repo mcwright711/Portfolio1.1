@@ -52,7 +52,9 @@ body{  p {
     height:auto;
     overflow-y: scroll;
   }
-  
+ h2 {
+  margin-bottom: 50px;
+ } 
 .parallax_row {
   background-image: url("media/pexels-sam-lion-5709517 (1).webp");
   background-attachment: fixed;
