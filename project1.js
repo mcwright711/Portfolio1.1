@@ -18,10 +18,5 @@ $(document).ready(function() {
   //}, 800);
 
 //exclude parallax effect from images
-$('.parallax_row img').addClass('full_width');
-});
-
-
-
-
-    
+//$('.parallax_row img').addClass('full_width');
+//});
