@@ -20,3 +20,5 @@ $(document).ready(function() {
 //exclude parallax effect from images
 //$('.parallax_row img').addClass('full_width');
 //});
+
+//Note to self: create media-query for margin or padding when footer is in 1 column, small screen 10/5/23
