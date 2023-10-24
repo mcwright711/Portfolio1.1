@@ -61,4 +61,24 @@ h2 {
 body {
 	padding: 2rem;
 	line-height: 1.5;
+	max-width: 100%;
 }
+span {
+	opacity: 0;
+    filter: blur(4px);
+	transform: scale (0.94);
+	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+span:nth-child(1) {
+	animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	@keyframes fade-in {
+		100% {
+		  opacity: 1;
+		  filter: blur(0);
+		}
+  }

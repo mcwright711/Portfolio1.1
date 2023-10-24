@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
-      (function(c,l,a,r,i,t,y){
+    (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
           t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "h206cxa4ny");
-      
+
+	  $(document).ready(function() {
+    /* Every time the window is scrolled ... 
+   $(window).scroll(function() {
+        /* Check the location of the desired element 
+        var top_of_object = $('.content').offset().top;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+         If the object is completely visible in the window, trigger animation 
+        if (top_of_object < bottom_of_window) {
+            $('.content').animate({
+                'left': '0',  Animate to the left edge of the parent 
+                'opacity': '1'/*
+            }, 10);  Adjust the animation duration as needed 
+        }
+    });
+});*/
+
   </script>
   <script src="typewriter.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -43,7 +61,7 @@
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="./project1.html">Au Post</a>
                   <a class="dropdown-item disabled" href="#">Wolfnest</a>
-                  <a class="dropdown-item disabled" href="#">The Wright Brand</a>
+                  <a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
                 </div>
               </div> 
               </li>
@@ -52,7 +70,7 @@
 <h1 class="display-3 mt-3">Wolfnest Tenant Portal</h1>
 <h2>Personal Project</h2>
 <div>
-  <img src="./media/Wolfnest7.jpg" class="center img-fluid" alt="before and after of wolfnest tenant portal">
+ <img src="./media/Wolfnest7.jpg" class="center img-fluid" alt="before and after of wolfnest tenant portal"><
   <div class="intro bg-light rounded" style="margin-bottom: 100px;">
     <h3 style="padding-top: 20px;">Project Overview</h3>
     <p>Problems: UI is outdated, unwelcoming, and unpleasant to look at.
@@ -62,7 +80,7 @@
 </div>
 <div class="timeline">
 	<div class="item">
-		<div class="img"><img src="./media/outdatedportal (1).jpg"></div>
+		<span><div class="img"><img src="./media/outdatedportal (1).jpg"alt="current site UI"></div></span>
 		<div class="wrap">
 			<div class="date">Why?</div>
 			<h3 class="title">Reasoning</h3>
@@ -73,7 +91,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/wolfnestsitemap.jpg"></div>
+		<div class="img"><img src="./media/wolfnestsitemap.jpg" alt="card sort payments section"></div>
 		<div class="wrap">
 			<div class="date">What?</div>
 			<h3 class="title">Research</h3>
@@ -89,18 +107,18 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/Wolfnest Design Style.jpg"></div>
+		<div class="img"><img src="./media/Wolfnest Design Style.jpg"alt="wolfnest design tile"></div>
 		<div class="wrap">
 			<div class="date">How?</div>
 			<h3 class="title">Design</h3>
 			<div class="content">
-				<p>Using trending UI and the Wolfnest Property Management homepage as a brand gruide, I started designing a new tenant portal home page. After three iterations, it was time for more testing.</p>
+				<p>Using trending UI and the Wolfnest Property Management homepage as a brand gruide, I started designing a new tenant portal home page.<a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=1-2&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=0%3A1">(View the full Style Tile.)</a>After three iterations, it was time for more testing.</p>
 			</div>
 		</div>
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/contactus.jpg"></div>
+		<div class="img"><img src="./media/contactus.jpg"alt="old vs new contact us image"></div>
 		<div class="wrap">
 			<div class="date">What?</div>
 			<h3 class="title">Usability Testing</h3>
@@ -118,13 +136,13 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src=""></div>
+		<div class="img"><img src="./media/CTA5.jpg" alt="cropped image of mobile nav menu"></div>
 		<div class="wrap">
 			<div class="date">Rinse, & Repeat</div>
 			<h3 class="title">Design</h3>
 			<div class="content">
 				<p>As I continued iterating on the designs, I also wanted to make the page <i>mobile friendly. </i></p>
-					<p>With multiple levels within the navigation I scrapped my original drop-down and pop-out menu for a <b><i> nested caret look</i></b>  similar to Amazon. </p>
+					<p>With multiple levels within the navigation I scrapped my original drop-down and pop-out menu for a <b><i> nested caret look</i></b>  similar to Amazon. <a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=267-528&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=5%3A15&starting-point-node-id=235%3A560&show-proto-sidebar=1">Try the mobile prototype.</a></p>
 			</div>
 		</div>
 	</div>
@@ -175,9 +193,7 @@
 		</div>
 	  </div>
 	</footer>
-        <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
         <script src="./project1.js"></script>
-
 </body>
 </html>

@@ -93,13 +93,20 @@ p, a, h3 {
 /*.btn:hover {
   background-color: gray; 
 }*/
-
+.btn {
+  background-color: #398279
+  
+}
+.btn:hover {
+  background-color: #595959;
+ 
+}
 .project-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 5em;
   gap: 4em;
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
  
 }
@@ -168,5 +175,11 @@ footer {
 
 .hideme
 {
-    opacity:0;
+    opacity:0; 
 }
+  .footer {
+ @media (min-width: 40rem) {
+div > * + * {
+  margin-top: 2rem;
+}
+}}
