@@ -133,7 +133,7 @@ p, a, h3 {
 .project-title {
   font-size: 1.4rem;
   color: var(--dark-grey);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 
@@ -161,6 +161,9 @@ p, a, h3 {
  padding: 10px;
  align-self: center;
 }*/
+header {
+  font-weight: bolder;
+}
 footer {
   background-color: #d8f4f3;
   margin: 20px 20px;
