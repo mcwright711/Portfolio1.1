@@ -101,18 +101,18 @@ p, a, h3 {
   background-color: #595959;
  
 }
-.project-wrapper {
+/*.project-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 5em;
   gap: 4em;
   max-width: 1000px;
-  margin: auto;
+  margin: auto;*/
  
-}
+
 
 .project-thumbnail {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   height: 100%;
   transition: .2s ease;
@@ -136,12 +136,27 @@ p, a, h3 {
   font-weight: bold;
 }
 
-.project-description {
-  padding-block: 2em;
-  line-height: 145%;
-  max-width: 40ch;
-}
 
+.column.home {
+  float: left;
+  padding: 10px;
+}
+.column.home.side {
+  width: 30%;
+}
+.column.home.middle {
+  width: 40%;
+}
+.row.home::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column.home.side, .column.home.middle {
+    width: 100%;
+  }
+}
 /*.icon {
  padding: 10px;
  align-self: center;
