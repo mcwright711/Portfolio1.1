@@ -63,7 +63,7 @@ body {
 	line-height: 1.5;
 	max-width: 100%;
 }
-span {
+/*span {
 	opacity: 0;
     filter: blur(4px);
 	transform: scale (0.94);
@@ -81,4 +81,4 @@ span:nth-child(1) {
 		  opacity: 1;
 		  filter: blur(0);
 		}
-  }
+  }*/

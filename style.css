@@ -3,6 +3,11 @@ body {
   /*font-family: 'Raleway', sans-serif;*/
   padding: 10px;
 }
+
+.intro {
+    margin-top: 1em;
+    padding: 10px; 
+}
 h1, h2, h4, h5 {
   font-family: 'Lato', sans-serif;
 }
@@ -190,6 +195,11 @@ footer {
   border-width: medium;
   border-radius: .25em;
 }*/
+.card-columns {
+  gap: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
  footer {
   width: 100%;
  }
@@ -200,7 +210,13 @@ footer {
     }
   }
 }
-.hideme
-{
+.wobble {
+		display: inline-block;
+  }
+  @keyframes jump {
+    50% {
+      -webkit-transform: translateY(-30%);
+      transform: translateY(-30%); } }
+  .hideme {
     opacity:0; 
 }

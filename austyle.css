@@ -1,8 +1,6 @@
-  .intro {
-    margin-top: 24px;
-    padding: 10px;
-  }
- 
+.hero {
+  object-fit: cover;
+ }
 
 #navbar-example2 {
   /*scroll-margin-top: 141px;*/
@@ -24,9 +22,9 @@
 #mainav {
   z-index: 9999;
 }
-.jumbotron {
+/*.jumbotron {
   padding-top: 0;
-}
+}*/
 .nav-item .nav-link {
   color: black;
 }
@@ -38,12 +36,12 @@ section {
 body{  p {
     margin: 15px;
   }
-  .row {
+  /*.row {
     padding: 20px;
     margin-left: 20 px;
     margin-right: 20px;
 
-  }}
+  }*/}
 
   #list-example {
     list-style: none;
@@ -53,15 +51,15 @@ body{  p {
     overflow-y: scroll;
   }
  h2 {
-  margin-bottom: 50px;
+  margin-bottom: 4em;
  } 
 .parallax_row {
-  background-image: url("media/pexels-sam-lion-5709517 (1).webp");
+  background-color:#398279;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: transparent;
+  /*background-color: transparent;*/
   position: relative; 
   max-width: none;
   margin: 0;
@@ -82,9 +80,9 @@ body{  p {
 .content {
   max-width: 500px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  /*padding-left: 25px;
+  padding-right: 25px;*/
 }
 .img-thumbnail {
-  margin-bottom: 25px;
+  margin-bottom: 1.5em;
 }

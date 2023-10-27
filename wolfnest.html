@@ -13,21 +13,25 @@
       })(window, document, "clarity", "script", "h206cxa4ny");
 
 	  $(document).ready(function() {
-    /* Every time the window is scrolled ... 
+		$('.item').fadeIn('slow');
+});
+    /* Every time the window is scrolled ... */
    $(window).scroll(function() {
-        /* Check the location of the desired element 
-        var top_of_object = $('.content').offset().top;
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-         If the object is completely visible in the window, trigger animation 
-        if (top_of_object < bottom_of_window) {
-            $('.content').animate({
-                'left': '0',  Animate to the left edge of the parent 
-                'opacity': '1'/*
-            }, 10);  Adjust the animation duration as needed 
-        }
+     /* Check the location of each desired element */
+	 $('.hideme').each(function(i) {
+            var top_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it in */
+            if (top_of_object < bottom_of_window){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
     });
-});*/
 
   </script>
   <script src="typewriter.js"></script>
@@ -70,7 +74,7 @@
 <h1 class="display-3 mt-3">Wolfnest Tenant Portal</h1>
 <h2>Personal Project</h2>
 <div>
- <img src="./media/Wolfnest7.jpg" class="center img-fluid" alt="before and after of wolfnest tenant portal"><
+ <img src="./media/Wolfnest7.jpg" class="center img-fluid" alt="before and after of wolfnest tenant portal">
   <div class="intro bg-light rounded" style="margin-bottom: 100px;">
     <h3 style="padding-top: 20px;">Project Overview</h3>
     <p>Problems: UI is outdated, unwelcoming, and unpleasant to look at.
@@ -80,10 +84,10 @@
 </div>
 <div class="timeline">
 	<div class="item">
-		<span><div class="img"><img src="./media/outdatedportal (1).jpg"alt="current site UI"></div></span>
+		<div class="img hideme"><img src="./media/outdatedportal (1).jpg"alt="current site UI"></div>
 		<div class="wrap">
 			<div class="date">Why?</div>
-			<h3 class="title">Reasoning</h3>
+			<h3 class="title wobble">Reasoning</h3>
 			<div class="content">
 				<p>For the past four years I have cringed every month as I paid my rent. The most obvious pain point is the lack of concsistency. There are too many options where I can perform the same task. </p><p>The biggest pain point is the interface recall. The same message of "do not use the messages feature" adds to my memory load. The world of UX/UI showed me how I could improve this interface, and so I did.</p>
 			</div>
@@ -91,7 +95,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/wolfnestsitemap.jpg" alt="card sort payments section"></div>
+		<div class="img hideme"><img src="./media/wolfnestsitemap.jpg" alt="card sort payments section"></div>
 		<div class="wrap">
 			<div class="date">What?</div>
 			<h3 class="title">Research</h3>
@@ -107,7 +111,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/Wolfnest Design Style.jpg"alt="wolfnest design tile"></div>
+		<div class="img hideme"><img src="./media/Wolfnest Design Style.jpg"alt="wolfnest design tile"></div>
 		<div class="wrap">
 			<div class="date">How?</div>
 			<h3 class="title">Design</h3>
@@ -118,7 +122,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/contactus.jpg"alt="old vs new contact us image"></div>
+		<div class="img hideme"><img src="./media/contactus.jpg"alt="old vs new contact us image"></div>
 		<div class="wrap">
 			<div class="date">What?</div>
 			<h3 class="title">Usability Testing</h3>
@@ -136,7 +140,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src="./media/CTA5.jpg" alt="cropped image of mobile nav menu"></div>
+		<div class="img hideme"><img src="./media/CTA5.jpg" alt="cropped image of mobile nav menu"></div>
 		<div class="wrap">
 			<div class="date">Rinse, & Repeat</div>
 			<h3 class="title">Design</h3>
@@ -148,7 +152,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src=""></div>
+		<div class="img hideme"><img src=""></div>
 		<div class="wrap">
 			<div class="date">Drum roll, please...</div>
 			<h3 class="title">A/B Testing</h3>
@@ -163,7 +167,7 @@
 	</div>
 
 	<div class="item">
-		<div class="img"><img src=""></div>
+		<div class="img hideme"><img src=""></div>
 		<div class="wrap">
 			<div class="date">Nitty Gritty</div>
 			<h3 class="title">Problems I encountered</h3>
@@ -182,7 +186,7 @@
             <div class="row row-cols-1">
             <div class="col-md-auto">
               <h5 class="text-center">Contact</h5>
-              <p>mcwright.english@gmail.com</p>
+              <p>marla.christine.wright@gmail.com</p>
               <a href="https://www.linkedin.com/in/marla-c-wright" style="color: black">linkedin.com/in/marla-c-wright</a>
             </div>
             </div>
