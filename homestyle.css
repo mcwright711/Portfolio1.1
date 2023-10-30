@@ -1,79 +1,10 @@
-  .typewriter{
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-    animation: 
-      typing 4.5s,
-      blink-caret .75s step-end infinite;
-  }
-  .typewriter.placeholder {
-    display: inline-block;
-    visibility: hidden;
-  }
-  .typewriter-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  span#blink {
-    color: white !important;
-    animation: blink 1s infinite;
-  }
-  
-  @keyframes typing {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    2% {
-      opacity: 1;
-    }
-    14% {
-      opacity: 1;
-      width: 12ch;
-    }
-    26% {
-      opacity: 1;
-      width: 0;
-    }
-    27% {
-      opacity: 0;
-    }
-  }
-  
-  .blinking-cursor {
-    position: relative;
-    -ms-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite;
-  }
-  
-  @keyframes blink {
-    from,
-    to {
-      color: transparent;
-    }
-    50% {
-      color: white;
-    }
-  }
-  
-  .img-fluid {
-    align-items: center;
-    justify-content: center;
-  }
- /*@media screen and (max-width:600px){
+/*@media screen and (max-width:600px){
   h3 {
     text-align: center;
   }
  }*/
-  .card-header {
-    font-size: 18px;
-    text-align: center;
-  }
-    @media screen and (min-width:992px ){
-    .headshot {
-     width: 25%;
-    }
+
+   
     /*.card-body{
         margin: 20px;
       }
@@ -83,22 +14,17 @@
       #judemock {
         align-items: space-around;
       }*/
-    }
-  header {
-    margin: 0;
-  }
  
  footer {
     margin: 0;
     margin-left:0;
   }
   body {
-    margin: 15px;
+	line-height: 1.5;
+	max-width: 100%;
   
   }
-  .column.home {
-    gap: 4em;
-  }
+
    /* .cards {
     padding: 5px;
     margin: 15px;

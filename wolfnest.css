@@ -1,24 +1,4 @@
-h2 {
-    margin-bottom: 50px;
-    text-align: center;
-}
-.timeline {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-}
-
-.timeline::before {
-	position: absolute;
-	content: "";
-	display: block;
-	width: 0.4rem;
-	height: 100%;
-	background: #888;
-	z-index: 1;
-}
-
+/*timeline layout & styling*/
 .item {
 	display: grid;
 	grid-template-columns: 1fr min-content 1fr;
@@ -28,21 +8,17 @@ h2 {
 	position: relative;
 	z-index: 2;
 }
-
 .item + .item {
 	margin-top: 4rem;
 }
-
 .wrap {
 	grid-area: content-left;
 	padding: 1rem;
 	max-width: 25rem;
 }
-
 .item:nth-child(even) .wrap {
 	grid-area: content-right;
 }
-
 .img {
 	width: 15rem;
 	height: 15rem;
@@ -52,16 +28,9 @@ h2 {
 	grid-area: image;
 	overflow: hidden;
 }
-
 .img > img {
 	width: 100%;
 	height: auto;
-}
-
-body {
-	padding: 2rem;
-	line-height: 1.5;
-	max-width: 100%;
 }
 /*span {
 	opacity: 0;

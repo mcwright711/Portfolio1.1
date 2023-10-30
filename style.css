@@ -1,26 +1,9 @@
-body {
-  
-  /*font-family: 'Raleway', sans-serif;*/
-  padding: 10px;
-}
-
-.intro {
-    margin-top: 1em;
-    padding: 10px; 
-}
-h1, h2, h4, h5 {
-  font-family: 'Lato', sans-serif;
-}
-
-p, a, h3 {
-  font-family: 'Poppins', sans-serif;
-}
 /*.nav-item active {
     background-color: white;
     font-weight: bold;
     /*border-width: 2px;
   }*/
-  
+  /*Main nav styling*/
 .nav-link  {
     font-weight: bold; 
     text-transform: uppercase;
@@ -31,13 +14,14 @@ p, a, h3 {
     position: relative;
     opacity: 0.75;
   }
-  
+ 
   .nav-item {
     position: relative;
     text-decoration: none;
     color: #a0a0a0;
   
 }
+/*nav underline hover effect*/
 .nav-item:after{
     content: "";
     position: absolute;
@@ -75,19 +59,133 @@ p, a, h3 {
   /* Your CSS rules to remove the hover effect */
   border-bottom: none;
 }
+/*currrent page highlight*/
 .nav-item.active .nav-link.active  {
-  color: #398279;
-   
+  color: #398279; 
+}
+/*scrollspy styling AU post*/
+#navbar-example2 {
+  /*scroll-margin-top: 141px;*/
+  position: sticky;
+  top: 136px;
+  left: 0;
+  text: black;
+  width: 100%;
+  /*padding: 1rem;*/
+  list-style-type: none;
+  background-color: #d8f4f3;
+  align-content: space-evenly;
+  z-index: 9000;
+  @media screen and (max-width: 767px) {
+    display: column;
+    
+  }
+}
+#list-example {
+  list-style: none;
+}
+.scrollspy-example {
+  height:auto;
+  overflow-y: scroll;
+}
+/*Typewriter effect styling Home*/
+.typewriter{
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: 
+    typing 4.5s,
+    blink-caret .75s step-end infinite;
 }
 
-  h1{
+.typewriter.placeholder {
+  display: inline-block;
+  visibility: hidden;
+}
+.typewriter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span#blink {
+  color: white !important;
+  animation: blink 1s infinite;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+    width: 12ch;
+  }
+  26% {
+    opacity: 1;
+    width: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+}
+
+.blinking-cursor {
+  position: relative;
+  -ms-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+@media screen and (min-width:992px ){
+  .headshot {
+   width: 25%;
+  }
+}
+/*Hero styling for all projects*/
+.hero {
+  object-fit: cover;
+ }
+body {
+  /*font-family: 'Raleway', sans-serif;*/
+  padding: 10px;
+}
+/*Homepage*/
+.intro {
+    margin-top: 1em;
+    padding: 10px; 
+}
+h1, h2, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+ /*Styling for all h2*/
+ h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+p, a, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+/*All pages*/
+h1{
     text-align: center;
   }
+
 .header {
   font-size: 30px;
   text-align: center;
-  /*margin-top: 20px;*/
-  
+  /*margin-top: 20px;*/ 
 }
 /*.btn {
   /*background-color: white;
@@ -98,13 +196,13 @@ p, a, h3 {
 /*.btn:hover {
   background-color: gray; 
 }*/
+/*Resume button*/
 .btn {
   background-color: #398279
-  
 }
+/*Accessible hover state*/
 .btn:hover {
   background-color: #595959;
- 
 }
 /*.project-wrapper {
   display: grid;
@@ -114,8 +212,12 @@ p, a, h3 {
   max-width: 1000px;
   margin: auto;*/
  
-
-
+/*Hero images*/
+.img-fluid {
+    align-items: center;
+    justify-content: center;
+}
+/*Wolfnest timeline*/
 .project-thumbnail {
   object-fit: contain;
   width: 100%;
@@ -124,27 +226,30 @@ p, a, h3 {
   transition-property: all;
   transition-property: transform;
 }
-
+/*Homepage*/
+.card-header {
+  font-size: 18px;
+}
+/*Project hover effect*/
 .project-thumbnail:hover {
   transform: scale(1.03);
 }
-
+/*Homepage cards*/
 .project-name {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .project-title {
   font-size: 1.4rem;
   color: var(--dark-grey);
   font-weight: normal;
 }
-
-
+/*Homepage cards styling*/
 .column.home {
   float: left;
   padding: 10px;
+  gap: 4em;
 }
 .column.home.side {
   width: 30%;
@@ -177,11 +282,16 @@ footer {
   padding-bottom: 10px;*/
   text: black;
   margin: 0px;
-
+  width: 100%;
  /* .container {
     flex-direction: justify content;
   }*/
- }
+  @media screen (mix-width: 40rem) {
+    div >*+* {
+      margin-top: 2rem;
+    }
+  }
+}
  .btn-sm {
   margin: 10px;
  }
@@ -195,28 +305,39 @@ footer {
   border-width: medium;
   border-radius: .25em;
 }*/
+/*About page*/
 .card-columns {
   gap: 2em;
   margin-left: 2em;
   margin-right: 2em;
 }
- footer {
-  width: 100%;
- }
-footer {
-  @media screen (mix-width: 40rem) {
-    div >*+* {
-      margin-top: 2rem;
-    }
-  }
-}
+/*Wolfnest heading styling*/
 .wobble {
 		display: inline-block;
   }
   @keyframes jump {
     50% {
       -webkit-transform: translateY(-30%);
-      transform: translateY(-30%); } }
-  .hideme {
+      transform: translateY(-30%); } 
+    }
+/*fade in effect*/
+.hideme {
     opacity:0; 
+}
+
+/*Wolfnest timeline*/
+.timeline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.timeline::before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 0.4rem;
+	height: 100%;
+	background: #888;
+	z-index: 1;
 }
