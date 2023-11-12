@@ -341,3 +341,6 @@ footer {
 	background: #888;
 	z-index: 1;
 }
+.prototype {
+  display: flex;
+}
