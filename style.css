@@ -252,10 +252,10 @@ h1{
   gap: 4em;
 }
 .column.home.side {
-  width: 30%;
+  width: 33%;
 }
 .column.home.middle {
-  width: 40%;
+  width: 33%;
 }
 .row.home::after {
   content: "";
@@ -344,3 +344,8 @@ footer {
 .prototype {
   display: flex;
 }
+ section {
+  color: white;
+  background-color: black;
+  padding-left: 1em;
+ }
