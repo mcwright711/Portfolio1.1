@@ -15,14 +15,15 @@
 	  $(document).ready(function() {
 		$('.item').fadeIn('slow');
 });
-    /* Every time the window is scrolled ... */
+/*Timeline fade in on scroll
+    /* Every time the window is scrolled ... 
    $(window).scroll(function() {
-     /* Check the location of each desired element */
+     /* Check the location of each desired element 
 	 $('.hideme').each(function(i) {
             var top_of_object = $(this).offset().top;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
-            /* If the object is completely visible in the window, fade it in */
+            /* If the object is completely visible in the window, fade it in 
             if (top_of_object < bottom_of_window){
                 
                 $(this).animate({'opacity':'1'},1500);
@@ -31,7 +32,7 @@
             
         }); 
     
-    });
+    });*/
 
   </script>
   <script src="typewriter.js"></script>
@@ -45,7 +46,7 @@
 </head>
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="mainav">
-		<a class="navbar-brand img-fluid"><img src="./media/MW (2) 1.png"alt="Marla Wright" height="110%" width="auto%">
+		<a class="navbar-brand img-fluid"><img src="./media/MW (2) 1.png"alt="Marla Wright">
 		</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,10 +54,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html"style="color: black">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html"style="color: black">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item dropdown"style="color: #715380">
                 <a class="nav-link dropdown-toggle " style="color: #398279" href="#" role="button" data-toggle="dropdown"aria-expanded="false" style="color: black">Wright Designs</a>
@@ -75,9 +76,9 @@
 <h2>Personal Project</h2>
 <div>
  <img src="./media/Wolfnest7.jpg" class="center img-fluid" alt="before and after of wolfnest tenant portal">
-  <div class="intro bg-light rounded" style="margin-bottom: 100px;">
-    <h3 style="padding-top: 20px;">Project Overview</h3>
-    <p>Problems: UI is outdated, unwelcoming, and unpleasant to look at.
+  <div class="intro" >
+    <h3>Project Overview</h3>
+    <p>Problems: Interface is outdated, redundant, and overlods memory recall.
      </p><break></break><p>Proposed Solution: Redesign page using Wolfnest's homepage as a branding guide, and conduct hybrid card sorts to create a more intuitive menu. 
       </p>
     </div>
@@ -87,9 +88,19 @@
 		<div class="img hideme"><img src="./media/outdatedportal (1).jpg"alt="current site UI"></div>
 		<div class="wrap">
 			<div id="date">Why?</div>
-			<h3 class="title">Reasoning</h3>
+			<h3 class="title hideme animate-on-scroll">
+				<span class="wobble">R</span>
+				<span class="wobble">e</span>
+				<span class="wobble">a</span>
+				<span class="wobble">s</span>
+				<span class="wobble">o</span>
+				<span class="wobble">n</span>
+				<span class="wobble">i</span>
+				<span class="wobble">n</span>
+				<span class="wobble">g</span></h3>
 			<div class="content">
-				<p>For the past four years I have cringed every month as I paid my rent. The most obvious pain point is the lack of concsistency. There are too many options where I can perform the same task. </p><p>The biggest pain point is the interface recall. The same message of "do not use the messages feature" adds to my memory load. The world of UX/UI showed me how I could improve this interface, and so I did.</p>
+				<p>
+					Paying rent over the past four years has been a monthly challenge due to inconsistent options for the same task. The recurring message discouraging the use of the messages feature adds to the interface recall problem. My journey into UX/UI has inspired enhancements to address these challenges.</p>
 			</div>
 		</div>
 	</div>
@@ -98,7 +109,16 @@
 		<div class="img hideme"><img src="./media/wolfnestsitemap.jpg" alt="card sort payments section"></div>
 		<div class="wrap">
 			<div class="date">What?</div>
-			<h3 class="title">Research</h3>
+			<h3 class="title hideme">
+				<span class="slide-in">R</span>
+				<span class="slide-in">e</span>
+				<span class="slide-in">s</span>
+				<span class="slide-in">e</span>
+				<span class="slide-in">a</span>
+				<span class="slide-in">r</span>
+				<span class="slide-in">c</span>
+				<span class="slide-in">h</span>
+			</h3>
 			<div class="content">
 				<p>For any website to be successful, it must have an intuitive navigation. First, I 
 					<ul><li>Sorted the navigation options as it seemed intuitive to me</li>
@@ -116,7 +136,7 @@
 			<div class="date">How?</div>
 			<h3 class="title">Design</h3>
 			<div class="content">
-				<p>Using trending UI and the Wolfnest Property Management homepage as a brand gruide, I started designing a new tenant portal home page.<a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=1-2&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=0%3A1">(View the full Style Tile.)</a>After three iterations, it was time for more testing.</p>
+				<p>Using trending UI and the Wolfnest Property Management homepage as a brand guide, I started designing a new tenant portal home page.<a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=1-2&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=0%3A1">(View the full Style Tile.)</a>After three iterations, it was time for more testing.</p>
 			</div>
 		</div>
 	</div>
@@ -143,10 +163,10 @@
 		<div class="img hideme"><img src="./media/CTA5.jpg" alt="cropped image of mobile nav menu"></div>
 		<div class="wrap">
 			<div class="date">Rinse, & Repeat</div>
-			<h3 class="title">Design</h3>
+			<h3 class="title">RWD</h3>
 			<div class="content">
 				<p>As I continued iterating on the designs, I also wanted to make the page <i>mobile friendly. </i></p>
-					<p>With multiple levels within the navigation I scrapped my original drop-down and pop-out menu for a <b><i> nested caret look</i></b>  similar to Amazon. <a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=267-528&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=5%3A15&starting-point-node-id=235%3A560&show-proto-sidebar=1">Try the mobile prototype.</a></p>
+					<p>With multiple levels within the navigation I scrapped my original drop-down and pop-out menu for a <b><i> nested caret look</i></b>  similar to Amazon. <a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=235-560&t=c2cWm29pu0n5Fosw-1&scaling=min-zoom&page-id=5%3A15&starting-point-node-id=235%3A560&show-proto-sidebar=1&mode=design">Try the mobile prototype.</a></p>
 			</div>
 		</div>
 	</div>
@@ -167,15 +187,15 @@
 	</div>
 
 	<div class="item">
-		<div class="img hideme"><img src=""></div>
+		<div class="img hideme"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAuixsTeR8J8abfl2TrgeGu%2FWolfnest-Redesign%3Ftype%3Ddesign%26node-id%3D317-385%26t%3DRox4nT67hIs5TmNA-1%26scaling%3Dmin-zoom%26page-id%3D317%253A384%26mode%3Ddesign"></iframe></div>
 		<div class="wrap">
 			<div class="date">Nitty Gritty</div>
-			<h3 class="title">Problems I encountered</h3>
+			<h3 class="title">Challenges</h3>
 			<div class="content">
 				<p><ul>
-					<li>It was difficult to find users for testing. I used what I had: my friends, parents, and children.</li>
-					<li>My original idea for the mobile navigation ended up very clunky.  Some of the original component framework was still usable in my new design.</li>
-					<li>Creating the CTA color-change effect was very time consuming and took me several hours. In the future, I hope to have a more skilled mentor to help me with advanced techniques rather than relying on just Youtube videos.</li>
+					<li>Difficulty finding users for testing, relying on friends, parents, and children.</li>
+					<li>Initial mobile navigation concept proved clunky, with some salvaged components in the new design.</li>
+					<li>Time-consuming creation of the CTA color-change effect; seeking a skilled mentor for advanced guidance beyond YouTube videos in the future.</li>
 				</ul></p>
 			</div>
 		</div>

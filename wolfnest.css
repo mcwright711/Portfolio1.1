@@ -32,6 +32,154 @@
 	width: 100%;
 	height: auto;
 }
+/*Wolfnest timeline*/
+.timeline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.timeline::before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 0.4rem;
+	height: 100%;
+	background: #888;
+	z-index: 1;
+}
+.title {
+  transform: translateY(0);
+  transition: opacity 0.5s, transform 0.5s;
+ 
+}
+/* Add this to your existing CSS */
+
+
+.title span.animate-on-scroll,
+.title .wobble.animate-on-scroll {
+ display: inline-block;
+  opacity: 1;
+  transform: translateY(0);
+  transform: translateY(0);
+  transition: opacity 0.5s, transform 0.5s;
+  animation: bounce 2s ease-in-out;
+  /*animation-delay: 1s;  Set the delay before the animation starts */
+}
+
+.title span:nth-child(1),
+.title .wobble:nth-child(1) {
+  animation-delay: 0.1s; /* Adjust the delay based on your preference */
+}
+
+.title span:nth-child(2),
+.title .wobble:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.title span:nth-child(3),
+.title .wobble:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.title span:nth-child(4),
+.title .wobble:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.title span:nth-child(5),
+.title .wobble:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.title span:nth-child(6),
+.title .wobble:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.title span:nth-child(7),
+.title .wobble:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.title span:nth-child(8),
+.title .wobble:nth-child(8) {
+  animation-delay: 0.8s;
+}
+.title span:nth-child(9),
+.title .wobble:nth-child(9) {
+  animation-delay: 0.9s;
+}
+/* Add more rules for additional letters */
+/* ... */
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30%);
+  }
+  60% {
+    transform: translateY(-15%);
+  }
+}
+  
+.title.slide-in span,
+.title.slide-in .slide-in {
+	display: inline-block;
+	opacity: 0;
+	transform: translateY(20px); /* Adjust the initial position as needed */
+	transition: opacity 0.5s, transform 0.5s;
+}
+
+.title.slide-in span.animate-on-scroll,
+.title.slide-in .slide-in.animate-on-scroll {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+  @keyframes slide-in {
+	0% {
+	  transform: translateY(100%);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  .title span:nth-child(1),
+.title .slide-in:nth-child(1) {
+  animation-delay: 0.1s; /* Adjust the delay based on your preference */
+}
+
+.title span:nth-child(2),
+.title .slide-in:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.title span:nth-child(3),
+.title .slide-in:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.title span:nth-child(4),
+.title .slide-in:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.title span:nth-child(5),
+.title .slide-in:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.title span:nth-child(6),
+.title .wobble:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.title span:nth-child(7),
+.title .slide-in:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.title span:nth-child(8),
+.title .slide-in:nth-child(8) {
+  animation-delay: 0.8s;
+}
 /*span {
 	opacity: 0;
     filter: blur(4px);

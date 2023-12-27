@@ -1,3 +1,7 @@
+.navbar-brand img-fluid {
+  height: 100%;
+  width: auto;
+}
 /*.nav-item active {
     background-color: white;
     font-weight: bold;
@@ -18,7 +22,7 @@
   .nav-item {
     position: relative;
     text-decoration: none;
-    color: #a0a0a0;
+   /* color: #a0a0a0;*/
   
 }
 /*nav underline hover effect*/
@@ -40,13 +44,13 @@
 }
 .nav-item:hover:not(.active):not(.no-hover):after,
 .nav-link:hover:not(.active):not(.no-hover):after {
-  /* Your CSS rules for pink underline on hover */
+  /* CSS rules for green underline on hover */
   border-bottom: 2px #398279;
-}
 
+}
 .nav-item.active:after,
 .nav-link.active:after {
-  /* Your CSS rules for active state */
+  /* CSS rules for active state */
   border-bottom: none;
   font-weight: bold;
   opacity: 0;
@@ -56,13 +60,29 @@
 
 .nav-item.no-hover:after,
 .nav-link.no-hover:after {
-  /* Your CSS rules to remove the hover effect */
+  /* CSS rules to remove the hover effect */
   border-bottom: none;
 }
 /*currrent page highlight*/
 .nav-item.active .nav-link.active  {
   color: #398279; 
 }
+.navbar-nav .nav-link:not(.active),
+.navbar-nav .nav-item:not(.active){
+    color: black;
+  }
+  .row hero {
+    margin-top: 20px;
+  }
+  h3 {
+    font-size: large;
+    padding-top: 1em; 
+  }
+  .header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
 /*scrollspy styling AU post*/
 #navbar-example2 {
   /*scroll-margin-top: 141px;*/
@@ -160,11 +180,15 @@ span#blink {
 body {
   /*font-family: 'Raleway', sans-serif;*/
   padding: 10px;
+  line-height: 1.5;
+	max-width: 100%;
 }
-/*Homepage*/
+
 .intro {
     margin-top: 1em;
     padding: 10px; 
+    margin-bottom: 3em;
+    background-color: #A29FA4 ;
 }
 h1, h2, h4, h5 {
   font-family: 'Lato', sans-serif;
@@ -172,7 +196,7 @@ h1, h2, h4, h5 {
  /*Styling for all h2*/
  h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 1em;
 }
 p, a, h3 {
   font-family: 'Poppins', sans-serif;
@@ -180,6 +204,7 @@ p, a, h3 {
 /*All pages*/
 h1{
     text-align: center;
+    margin-bottom:50px; 
   }
 
 .header {
@@ -200,7 +225,7 @@ h1{
 .btn {
   background-color: #398279
 }
-/*Accessible hover state*/
+/*Accessible hover state button*/
 .btn:hover {
   background-color: #595959;
 }
@@ -216,15 +241,6 @@ h1{
 .img-fluid {
     align-items: center;
     justify-content: center;
-}
-/*Wolfnest timeline*/
-.project-thumbnail {
-  object-fit: contain;
-  width: 100%;
-  height: 50%;
-  transition: .2s ease;
-  transition-property: all;
-  transition-property: transform;
 }
 /*Homepage*/
 .card-header {
@@ -271,9 +287,7 @@ h1{
  padding: 10px;
  align-self: center;
 }*/
-header {
-  font-weight: bolder;
-}
+
 footer {
   background-color: #d8f4f3;
   margin: 20px 20px;
@@ -286,6 +300,7 @@ footer {
  /* .container {
     flex-direction: justify content;
   }*/
+  /*responsive footer*/
   @media screen (mix-width: 40rem) {
     div >*+* {
       margin-top: 2rem;
@@ -310,36 +325,21 @@ footer {
   gap: 2em;
   margin-left: 2em;
   margin-right: 2em;
+  margin-top: 8rem;
 }
-/*Wolfnest heading styling*/
-.wobble {
-		display: inline-block;
+/*wolfnest timeline and homepage cards*/
+.project-thumbnail {
+	object-fit: contain;
+	width: 100%;
+	height: 50%;
+	transition: .2s ease;
+	transition-property: all;
+	transition-property: transform;
   }
-  @keyframes jump {
-    50% {
-      -webkit-transform: translateY(-30%);
-      transform: translateY(-30%); } 
-    }
+
 /*fade in effect*/
 .hideme {
     opacity:0; 
-}
-
-/*Wolfnest timeline*/
-.timeline {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-}
-.timeline::before {
-	position: absolute;
-	content: "";
-	display: block;
-	width: 0.4rem;
-	height: 100%;
-	background: #888;
-	z-index: 1;
 }
 .prototype {
   display: flex;
