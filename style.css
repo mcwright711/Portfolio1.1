@@ -351,4 +351,8 @@ footer {
   color: white;
   background-color: #333333;
   padding-left: 1em;
- }
+ 
+  position: relative;
+  height:auto;
+  overflow-y: scroll;
+}

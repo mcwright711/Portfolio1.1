@@ -9,11 +9,7 @@
 .nav-item .nav-link {
   color: black;
 }
-section {
-  position: relative;
-  height:auto;
-  overflow-y: scroll;
-}
+
 /*body{  p {
     margin: 15px;
   }*/
