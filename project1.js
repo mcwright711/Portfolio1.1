@@ -38,7 +38,7 @@ $(document).ready(function() {
     }
   
     // Target the elements you want to animate on scroll
-    const titleContainers = document.querySelectorAll('.title .wobble, .title .slide-in');
+    const titleContainers = document.querySelectorAll('.title .wobble .title .slide-in .animate-on-scroll');
   
     // Observe each target element for animation
     titleContainers.forEach(container => {
