@@ -56,54 +56,52 @@
 /* Add this to your existing CSS */
 
 
-.title .animate-on-scroll,
-.title span.wobble.animate-on-scroll {
+.title.animate-on-scroll.bounce
+ {
  display: inline-block;
   opacity: 1;
   transform: translateY(0);
-  transform: translateY(0);
-  transition: transform 0.5s;
   animation: bounce 2s ease-in-out;
   /*animation-delay: 1s;  Set the delay before the animation starts */
 }
 
 .title span:nth-child(1),
-.title .wobble:nth-child(1) {
+.title .bounce:nth-child(1) {
   animation-delay: 0.1s; /* Adjust the delay based on your preference */
 }
 
 .title span:nth-child(2),
-.title .wobble:nth-child(2) {
+.title .bounce:nth-child(2) {
   animation-delay: 0.2s;
 }
 
 .title span:nth-child(3),
-.title .wobble:nth-child(3) {
+.title .bounce:nth-child(3) {
   animation-delay: 0.3s;
 }
 
 .title span:nth-child(4),
-.title .wobble:nth-child(4) {
+.title .bounce:nth-child(4) {
   animation-delay: 0.4s;
 }
 .title span:nth-child(5),
-.title .wobble:nth-child(5) {
+.title .bounce:nth-child(5) {
   animation-delay: 0.5s;
 }
 .title span:nth-child(6),
-.title .wobble:nth-child(6) {
+.title .bounce:nth-child(6) {
   animation-delay: 0.6s;
 }
 .title span:nth-child(7),
-.title .wobble:nth-child(7) {
+.title .bounce:nth-child(7) {
   animation-delay: 0.7s;
 }
 .title span:nth-child(8),
-.title .wobble:nth-child(8) {
+.title .bounce:nth-child(8) {
   animation-delay: 0.8s;
 }
 .title span:nth-child(9),
-.title .wobble:nth-child(9) {
+.title .bounce:nth-child(9) {
   animation-delay: 0.9s;
 }
 /* Add more rules for additional letters */
@@ -121,19 +119,16 @@
   }
 }
   
-.title.animate-on-scroll,
-.title span.slide-in{
+.title.animate-on-scroll.slide-in {
 	display: inline-block;
 	opacity: 0;
 	transform: translateY(20px); /* Adjust the initial position as needed */
-	transition: transform 0.5s;
 }
 
-.title.slide-in span.animate-on-scroll,
-.title .slide-in.animate-on-scroll {
+/*.title.slide-in.animate-on-scroll, {
 	opacity: 1;
 	transform: translateY(0);
-}
+}*/
 
   @keyframes slide-in {
 	0% {

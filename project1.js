@@ -27,25 +27,46 @@ $(document).ready(function() {
   });
 
   // Set up intersection observer for title animations on scroll
-  document.addEventListener("DOMContentLoaded", function() {
-    function handleIntersection(entries, observer) {
-      entries.forEach((entry, index) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-on-scroll');
-          observer.unobserve(entry.target);
-        }
-      });
-    }
+  //document.addEventListener("DOMContentLoaded", function() {
+    //unction handleIntersection(entries, observer) {
+    //  entries.forEach((entry, index) => {
+     //   if (entry.isIntersecting) {
+     //     entry.target.classList.add('animate-on-scroll');
+     //     observer.unobserve(entry.target);
+    //    }
+   //   });
+ //   }
   
     // Target the elements you want to animate on scroll
-    const titleContainers = document.querySelectorAll('.title .wobble .title .slide-in .animate-on-scroll');
+  //  const titleContainers = document.querySelectorAll('.title .bounce .title .slide-in .animate-on-scroll');
   
     // Observe each target element for animation
-    titleContainers.forEach(container => {
-      const titleObserver = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
-      titleObserver.observe(container);
-    });
+  //  titleContainers.forEach(container => {
+   //   const titleObserver = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
+   //   titleObserver.observe(container);
+ //   });
+ // });
+
+  // Set up intersection observer for title and slide-in animations on scroll
+  const observer = new IntersectionObserver(handleIntersection, { threshold: 0 });
+
+  // Target the elements with both "title" and "slide-in" classes
+  const animatedElements = document.querySelectorAll('.title.bounce, .title.slide-in');
+
+
+  // Observe each target element for animation
+  animatedElements.forEach(element => {
+    observer.observe(element);
   });
+
+  function handleIntersection(entries, observer) {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-on-scroll');
+        observer.unobserve(entry.target);
+      }
+    });
+  }
 
   // Timeline fade in on scroll
   $('.item').fadeIn('slow');

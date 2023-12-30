@@ -28,23 +28,23 @@ section {
   margin-bottom: 4em;
  } */
  /*parallax row styling*/
-.parallax_row {
+/*.parallax_row {
   background-color:#398279;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /*background-color: transparent;*/
-  position: relative; 
+  /*position: relative; 
   max-width: none;
   margin: 0;
-}
+}*/
 .caption {
   position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
-  height: 50%; /* Add this line to ensure the caption takes up the full height of the parent container */
+  /*height: 50%;/* /* Add this line to ensure the caption takes up the full height of the parent container */
   display: flex; /* Add this line to center the text vertically */
   align-items: center; /* Add this line to center the text vertically */
   justify-content: center; /* Add this line to center the text horizontally */
@@ -58,6 +58,9 @@ section {
   margin: auto;
   /*padding-left: 25px;
   padding-right: 25px;*/
+}
+.Au.row {
+  margin-top: 100px;
 }
 /*small space between the image and text below*/
 .img-thumbnail {
