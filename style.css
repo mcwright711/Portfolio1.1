@@ -71,6 +71,10 @@
 .navbar-nav .nav-item:not(.active){
     color: black;
   }
+  /*Z-index value ensures top nav will stay above scrollspy nav*/
+  #mainav {
+    z-index: 9999;
+  }
   .row.hero {
     margin-top: 20px;
   }
@@ -334,7 +338,6 @@ footer {
   color: white;
   background-color: #333333;
   padding-left: 1em;
- 
   position: relative;
   height:auto;
   overflow-y: scroll;
