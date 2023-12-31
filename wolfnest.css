@@ -53,12 +53,11 @@
 	position: relative;
 }
 
-.bounce span {
+.bounce.animate-on-scroll span {
 	position: relative;
 	display: inline-block;
-	text-transform: uppercase;
-	animation: bounce 1s;
-	animation-delay: calc(.1s * var(--i));
+	animation: bounce 1s; /* Animation duration */
+	animation-delay: calc(.1s * var(--i)); /* Animation delay: 0.1s multiplied by --i variable defined in the spans */
 }
 
 @keyframes bounce {
@@ -71,12 +70,6 @@
   60% {
     transform: translateY(-15%);
   }
-}
-
-.title.animate-on-scroll.slide-in {
-	display: inline-block;
-	opacity: 0;
-	transform: translateY(20px); /* Adjust the initial position as needed */
 }
 
 .slide-in {
@@ -97,7 +90,7 @@
 	}
 }
 
-.slide-in span {
+.slide-in.animate-on-scroll span {
 	position: relative;
 	display: inline-block;
 	animation: slide-in 1s;
