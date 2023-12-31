@@ -1,187 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./wolfnest.css">
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./wolfnest.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Wolfnest Property Management Redesign</title>
-</head>
-<body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="mainav">
-		<a class="navbar-brand img-fluid"><img src="./media/MW (2) 1.png"alt="Marla Wright">
-		</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
-            </li>
-            <li class="nav-item dropdown"style="color: #715380">
-                <a class="nav-link dropdown-toggle" style="color: #398279" href="#" role="button" data-toggle="dropdown"aria-expanded="false" style="color: black">Wright Designs</a>
-                <span class="sr-only">(current)
-                </span>
-                <div class="dropdown-menu">
-					<a class="dropdown-item disabled" href="#">Wolfnest</a>
-					<a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
-				  <a class="dropdown-item" href="./project1.html">Au Post</a>
-                </div>
+  </head>
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
+      id="mainav"
+    >
+      <a class="navbar-brand img-fluid"
+        ><img src="./media/MW (2) 1.png" alt="Marla Wright" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown" style="color: #715380">
+            <a
+              class="nav-link dropdown-toggle"
+              style="color: #398279"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+              style="color: black"
+              >Wright Designs</a
+            >
+            <span class="sr-only">(current) </span>
+            <div class="dropdown-menu">
+              <a class="dropdown-item disabled" href="#">Wolfnest</a>
+              <a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
+              <a class="dropdown-item" href="./project1.html">Au Post</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="display-3 mt-3">Wolfnest Tenant Portal</h1>
+    <h2>Personal Project</h2>
+    <div>
+      <img
+        src="./media/Wolfnest7.jpg"
+        class="center img-fluid"
+        alt="before and after of wolfnest tenant portal"
+      />
+      <div class="intro">
+        <h3>Project Overview</h3>
+        <p>
+          Problems: Interface is outdated, redundant, and overlods memory
+          recall.
+        </p>
+        <break></break>
+        <p>
+          Proposed Solution: Redesign page using Wolfnest's homepage as a
+          branding guide, and conduct hybrid card sorts to create a more
+          intuitive menu.
+        </p>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="item">
+        <div class="img hideme">
+          <img src="./media/outdatedportal (1).jpg" alt="current site UI" />
+        </div>
+        <div class="wrap">
+          <div>Why?</div>
+          <h3 class="title bounce">
+            <span style="--i: 1">R</span>
+            <span style="--i: 2">e</span>
+            <span style="--i: 3">a</span>
+            <span style="--i: 4">s</span>
+            <span style="--i: 5">o</span>
+            <span style="--i: 6">n</span>
+            <span style="--i: 7">i</span>
+            <span style="--i: 8">n</span>
+            <span style="--i: 9">g</span>
+          </h3>
+          <div class="content">
+            <p>
+              Paying rent over the past four years has been a monthly challenge
+              due to inconsistent options for the same task. The recurring
+              message discouraging the use of the messages feature adds to the
+              interface recall problem. My journey into UX/UI has inspired
+              enhancements to address these challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img hideme">
+          <img
+            src="./media/wolfnestsitemap.jpg"
+            alt="card sort payments section"
+          />
+        </div>
+        <div class="wrap">
+          <div class="date">What?</div>
+          <h3 class="title slide-in">
+            <span style="--i: 1">R</span>
+            <span style="--i: 2">e</span>
+            <span style="--i: 3">s</span>
+            <span style="--i: 4">e</span>
+            <span style="--i: 5">a</span>
+            <span style="--i: 6">r</span>
+            <span style="--i: 7">c</span>
+            <span style="--i: 8">h</span>
+          </h3>
+          <div class="content">
+            <p>
+              For any website to be successful, it must have an intuitive
+              navigation. First, I
+            </p>
+            <ul>
+              <li>
+                Sorted the navigation options as it seemed intuitive to me
+              </li>
+              <li>Then, I conducted two more hybrid card sorts</li>
+              <li>
+                And finally, compiled the data together to create a new
+                megamenu.
               </li>
             </ul>
-		</div> 
-        </nav>
-<h1 class="display-3 mt-3">Wolfnest Tenant Portal</h1>
-<h2>Personal Project</h2>
-<div>
- <img src="./media/Wolfnest7.jpg" class="center img-fluid" alt="before and after of wolfnest tenant portal">
-  <div class="intro" >
-    <h3>Project Overview</h3>
-    <p>Problems: Interface is outdated, redundant, and overlods memory recall.
-     </p><break></break><p>Proposed Solution: Redesign page using Wolfnest's homepage as a branding guide, and conduct hybrid card sorts to create a more intuitive menu. 
-      </p>
-    </div>
-</div>
-<div class="timeline">
-	<div class="item">
-		<div class="img hideme"><img src="./media/outdatedportal (1).jpg"alt="current site UI"></div>
-		<div class="wrap">
-			<div>Why?</div>
-			<h3 class="title animate-on-scroll">
-				<span class="bounce">R</span>
-				<span class="bounce">e</span>
-				<span class="bounce">a</span>
-				<span class="bounce">s</span>
-				<span class="bounce">o</span>
-				<span class="bounce">n</span>
-				<span class="bounce">i</span>
-				<span class="bounce">n</span>
-				<span class="bounce">g</span></h3>
-			<div class="content">
-				<p>
-					Paying rent over the past four years has been a monthly challenge due to inconsistent options for the same task. The recurring message discouraging the use of the messages feature adds to the interface recall problem. My journey into UX/UI has inspired enhancements to address these challenges.</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="item">
-		<div class="img hideme"><img src="./media/wolfnestsitemap.jpg" alt="card sort payments section"></div>
-		<div class="wrap">
-			<div class="date">What?</div>
-			<h3 class="title animate-on-scroll">
-				<span class="slide-in">R</span>
-				<span class="slide-in">e</span>
-				<span class="slide-in">s</span>
-				<span class="slide-in">e</span>
-				<span class="slide-in">a</span>
-				<span class="slide-in">r</span>
-				<span class="slide-in">c</span>
-				<span class="slide-in">h</span>
-			</h3>
-			<div class="content">
-				<p>For any website to be successful, it must have an intuitive navigation. First, I 
-					<ul><li>Sorted the navigation options as it seemed intuitive to me</li>
-						<li>Then, I conducted two more hybrid card sorts</li>
-						<li>And finally, compiled the data together to create a new megamenu.</li>
-					</ul>
-				</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="item">
-		<div class="img hideme"><img src="./media/Wolfnest Design Style.jpg"alt="wolfnest design tile"></div>
-		<div class="wrap">
-			<div>How?</div>
-			<h3 class="title">Design</h3>
-			<div class="content">
-				<p>Using trending UI and the Wolfnest Property Management homepage as a brand guide, I started designing a new tenant portal home page.<a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=1-2&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=0%3A1">(View the full Style Tile.)</a>After three iterations, it was time for more testing.</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="item">
-		<div class="img hideme"><img src="./media/contactus.jpg"alt="old vs new contact us image"></div>
-		<div class="wrap">
-			<div>What?</div>
-			<h3 class="title">Usability Testing</h3>
-			<div class="content">
-				<p>With 3 usability tests I discovered
-					<ul>
-						<li>The footer information was overlooked because users didn't think to scroll</li>
-						<li>Users would rather have the contact information hidden but easily accessible at the <i>top of the page</i></li>
-						<li>The 2 main CTA buttons were used about 50% of the time
-						</li>
-					</ul>
-				</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="item">
-		<div class="img hideme"><img src="./media/CTA5.jpg" alt="cropped image of mobile nav menu"></div>
-		<div class="wrap">
-			<div>Rinse, & Repeat</div>
-			<h3 class="title">RWD</h3>
-			<div class="content">
-				<p>As I continued iterating on the designs, I also wanted to make the page <i>mobile friendly. </i></p>
-					<p>With multiple levels within the navigation I scrapped my original drop-down and pop-out menu for a <b><i> nested caret look</i></b>  similar to Amazon. <a href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=235-560&t=c2cWm29pu0n5Fosw-1&scaling=min-zoom&page-id=5%3A15&starting-point-node-id=235%3A560&show-proto-sidebar=1&mode=design">Try the mobile prototype.</a></p>
-			</div>
-		</div>
-	</div>
-
-	<div class="item">
-		<div class="img hideme"><img src=""></div>
-		<div class="wrap">
-			<div>Drum roll, please...</div>
-			<h3 class="title">A/B Testing</h3>
-			<div class="content">
-				<p>Finally, it was time to put my design to the test. The results from A/B testing (old vs new design) showed
-				<ul>
-					<li>Content coming soon!</li>
-					
-				</ul></p>
-			</div>
-		</div>
-	</div>
-
-	<div class="item">
-		<div class="img hideme"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAuixsTeR8J8abfl2TrgeGu%2FWolfnest-Redesign%3Ftype%3Ddesign%26node-id%3D317-385%26t%3DRox4nT67hIs5TmNA-1%26scaling%3Dmin-zoom%26page-id%3D317%253A384%26mode%3Ddesign"></iframe></div>
-		<div class="wrap">
-			<div>Nitty Gritty</div>
-			<h3 class="title">Challenges</h3>
-			<div class="content">
-				<p><ul>
-					<li>Difficulty finding users for testing, relying on friends, parents, and children.</li>
-					<li>Initial mobile navigation concept proved clunky, with some salvaged components in the new design.</li>
-					<li>Time-consuming creation of the CTA color-change effect; seeking a skilled mentor for advanced guidance beyond YouTube videos in the future.</li>
-				</ul></p>
-			</div>
-		</div>
-	</div>
-</div>
-<footer>
-          <div class="d-flex justify-content-center">
-            <div class="row row-cols-1">
-            <div class="col-md-auto">
-              <h5 class="text-center">Contact</h5>
-              <p>marla.christine.wright@gmail.com</p>
-              <a href="https://www.linkedin.com/in/marla-c-wright" style="color: black">linkedin.com/in/marla-c-wright</a>
-            </div>
-            </div>
           </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-        <script src="./project1.js"></script>
-</body>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img hideme">
+          <img
+            src="./media/Wolfnest Design Style.jpg"
+            alt="wolfnest design tile"
+          />
+        </div>
+        <div class="wrap">
+          <div>How?</div>
+          <h3 class="title">Design</h3>
+          <div class="content">
+            <p>
+              Using trending UI and the Wolfnest Property Management homepage as
+              a brand guide, I started designing a new tenant portal home
+              page.<a
+                href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=1-2&t=whnz66zAw42GhiJC-0&scaling=min-zoom&page-id=0%3A1"
+                >(View the full Style Tile.)</a
+              >After three iterations, it was time for more testing.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img hideme">
+          <img src="./media/contactus.jpg" alt="old vs new contact us image" />
+        </div>
+        <div class="wrap">
+          <div>What?</div>
+          <h3 class="title">Usability Testing</h3>
+          <div class="content">
+            <p>With 3 usability tests I discovered</p>
+            <ul>
+              <li>
+                The footer information was overlooked because users didn't think
+                to scroll
+              </li>
+              <li>
+                Users would rather have the contact information hidden but
+                easily accessible at the <i>top of the page</i>
+              </li>
+              <li>The 2 main CTA buttons were used about 50% of the time</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img hideme">
+          <img src="./media/CTA5.jpg" alt="cropped image of mobile nav menu" />
+        </div>
+        <div class="wrap">
+          <div>Rinse, & Repeat</div>
+          <h3 class="title">RWD</h3>
+          <div class="content">
+            <p>
+              As I continued iterating on the designs, I also wanted to make the
+              page <i>mobile friendly. </i>
+            </p>
+            <p>
+              With multiple levels within the navigation I scrapped my original
+              drop-down and pop-out menu for a
+              <b><i> nested caret look</i></b> similar to Amazon.
+              <a
+                href="https://www.figma.com/proto/AuixsTeR8J8abfl2TrgeGu/Wolfnest-Redesign?type=design&node-id=235-560&t=c2cWm29pu0n5Fosw-1&scaling=min-zoom&page-id=5%3A15&starting-point-node-id=235%3A560&show-proto-sidebar=1&mode=design"
+                >Try the mobile prototype.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img hideme"><img src="" /></div>
+        <div class="wrap">
+          <div>Drum roll, please...</div>
+          <h3 class="title">A/B Testing</h3>
+          <div class="content">
+            <p>
+              Finally, it was time to put my design to the test. The results
+              from A/B testing (old vs new design) showed
+            </p>
+            <ul>
+              <li>Content coming soon!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img hideme">
+          <iframe
+            style="border: 1px solid rgba(0, 0, 0, 0.1)"
+            width="400"
+            height="250"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAuixsTeR8J8abfl2TrgeGu%2FWolfnest-Redesign%3Ftype%3Ddesign%26node-id%3D317-385%26t%3DRox4nT67hIs5TmNA-1%26scaling%3Dmin-zoom%26page-id%3D317%253A384%26mode%3Ddesign"
+          ></iframe>
+        </div>
+        <div class="wrap">
+          <div>Nitty Gritty</div>
+          <h3 class="title">Challenges</h3>
+          <div class="content">
+            <ul>
+              <li>
+                Difficulty finding users for testing, relying on friends,
+                parents, and children.
+              </li>
+              <li>
+                Initial mobile navigation concept proved clunky, with some
+                salvaged components in the new design.
+              </li>
+              <li>
+                Time-consuming creation of the CTA color-change effect; seeking
+                a skilled mentor for advanced guidance beyond YouTube videos in
+                the future.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="d-flex justify-content-center">
+        <div class="row row-cols-1">
+          <div class="col-md-auto">
+            <h5 class="text-center">Contact</h5>
+            <p>marla.christine.wright@gmail.com</p>
+            <a
+              href="https://www.linkedin.com/in/marla-c-wright"
+              style="color: black"
+              >linkedin.com/in/marla-c-wright</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./wolfnest.js"></script>
+  </body>
 </html>
