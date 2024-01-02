@@ -123,3 +123,122 @@ span:nth-child(1) {
 		  filter: blur(0);
 		}
   }*/
+  .spin.animate-on-scroll span {
+    position: relative;
+    display: inline-block;
+    animation: spin 2s linear; /* Animation duration */
+    animation-delay: calc(
+      0.1s * var(--i)
+    ); /* Animation delay: 0.1s multiplied by --i variable defined in the spans */
+  }
+  @keyframes spin {
+    0%, 75% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .focus.animate-on-scroll span {
+    position: relative;
+    display: inline-block;
+    animation: focus 2s linear; /* Animation duration */
+    animation-delay: calc(
+      0.1s * var(--i)
+    ); /* Animation delay: 0.1s multiplied by --i variable defined in the spans */
+  }
+  @keyframes focus {
+    0%,
+    {
+      filter: blur(0);
+    }
+    40% {
+      filter: blur(20px);
+    }
+    80% {
+      filter: blur(0);
+    }
+    100% {
+      filter: blur (0)
+    }
+  }
+  .squeeze.animate-on-scroll span {
+    position: relative;
+    display: inline-block;
+    animation: squeeze 1s ease-in-out; /* Animation duration */
+    animation-delay: calc(
+      0.1s * var(--i)
+    ); /* Animation delay: 0.1s multiplied by --i variable defined in the spans */
+  }
+  @keyframes squeeze {
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    0% {
+      transform: scalex (0)
+    }
+    20% {
+      transform: scaleX(-10%);
+    }
+    40% {
+      transform: scaleX(-20%);
+    }
+    60% {
+      transform: scaleX(-10%)
+    }
+    80% {
+      transform: scaleX(0%);
+    }
+    100% {
+      transform: scaleX(1)
+    }
+  }
+  .zoom.animate-on-scroll span {
+    position: relative;
+    display: inline-block;
+    animation: zoom 1s; /* Animation duration */
+    animation-delay: calc(
+      0.1s * var(--i)
+    ); /* Animation delay: 0.1s multiplied by --i variable defined in the spans */
+  }
+  @keyframes zoom {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%) scaleX(0.5);
+    }
+    30% {
+      opacity: 1;
+      transform: translateX(0) scaleX(1.2);
+    }
+    50% {
+      transform: translateX(0) scaleX(0.8);
+    }
+    70% {
+      transform: translateX(0) scaleX(1.1);
+    }
+    100% {
+      transform: translateX(0) scaleX(1);
+    }
+  }
+  .random.animate-on-scroll span {
+    position: relative;
+    display: inline-block;
+    animation: random 2s ease-in-out; /* Animation duration */
+    animation-delay: calc(
+      0.1s * var(--i)
+    ); /* Animation delay: 0.1s multiplied by --i variable defined in the spans */
+  }
+  @keyframes random {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform:translateY (0) rotate(0deg);
+    }
+    40% {
+      transform: translateY(-200px) rotate(360deg);
+    }
+    60% {
+      transform: translateY (200px) rotate(-360deg);
+    }
+  }

@@ -320,6 +320,7 @@ section {
   position: relative;
   height: auto;
   overflow-y: scroll;
+  padding: 1em;
 }
 /*styling for Branding page. 
 grid layout with right aside*/
@@ -342,6 +343,10 @@ grid layout with right aside*/
   }
   .sidebar {
     grid-column: 6/8; 
+    background-color: #d8f4f3; 
+    margin: 1em; 
+    padding: 2em;
+
   }
   .twin {
     grid-column: 2/5;
