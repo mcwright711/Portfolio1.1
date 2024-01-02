@@ -1,3 +1,17 @@
+body {
+  /*font-family: 'Raleway', sans-serif;*/
+  /*padding: 10px;*/
+
+  /* Margin */
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  line-height: 1.5;
+  max-width: 100%;
+  position: relative; /* Needed for scrollspy */
+}
+
 .navbar-brand img-fluid {
   height: 100%;
   width: auto;
@@ -134,12 +148,6 @@
 /*Hero styling for all projects*/
 .hero {
   object-fit: cover;
-}
-body {
-  /*font-family: 'Raleway', sans-serif;*/
-  padding: 10px;
-  line-height: 1.5;
-  max-width: 100%;
 }
 
 .intro {
