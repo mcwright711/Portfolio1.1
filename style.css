@@ -324,6 +324,7 @@ section {
   position: relative;
   height: auto;
   overflow-y: scroll;
+  padding: 1em;
 }
 /*styling for Branding page. 
 grid layout with right aside*/
@@ -345,7 +346,11 @@ grid layout with right aside*/
       grid-column: 2/6; 
   }
   .sidebar {
-    grid-column: 6/8; 
+    grid-column: 7/8; 
+    background-color: #d8f4f3; 
+    margin: 1em; 
+    padding: 2em;
+
   }
   .twin {
     grid-column: 2/5;
@@ -355,4 +360,7 @@ grid layout with right aside*/
     grid-column: 5/8; 
   }
   }
+}
+.bottomaside {
+  margin-top: 3em;
 }
