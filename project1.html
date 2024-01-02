@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Australian Post Office Case Study</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-scrollspy">
     <nav
       class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
       id="mainav"
@@ -76,7 +76,7 @@
     <h1 class="display-3 mt-3">Australia Post Office</h1>
     <h2>Bootcamp Project</h2>
 
-    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light">
+    <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-light">
       <button
         class="navbar-toggler"
         type="button"
@@ -126,9 +126,9 @@
         </p>
       </div>
     </div>
-    <!--section data-spy="scroll" data-target="#navbar-example2" data-offset="500"-->
     <div class="content">
-      <div id="item1" alt="">
+      <a class="anchor" id="item1"></a>
+      <div>
         <!--class="parallax_row" style="height: 100vh"-->
         <h2>Empathize</h2>
       </div>
@@ -221,7 +221,8 @@
         </div>
         <div class="Au row">
           <div>
-            <h2 id="item2">Define</h2>
+            <a class="anchor" id="item2"></a>
+            <h2>Define</h2>
             <h3 class="mr-3">Card Sort</h3>
             <div>
               <img
@@ -270,8 +271,8 @@
       </div>
 
       <div class="Au row">
-        <h2 id="item3">Ideate</h2>
-
+        <a class="anchor" id="item3"></a>
+        <h2>Ideate</h2>
         <div class="d-flex flex-row">
           <img
             class="card-img rounded-small mr-auto shadow"
@@ -320,7 +321,8 @@
         </div>
       </div>
       <div class="Au row">
-        <h2 id="item4">Prototype</h2>
+        <a class="anchor" id="item4"></a>
+        <h2>Prototype</h2>
 
         <img
           class="img-thumbnail shadow rounded"
@@ -341,7 +343,8 @@
         </ul>
       </div>
       <div class="Au row">
-        <h2 id="item5">Test</h2>
+        <a class="anchor" id="item5"></a>
+        <h2>Test</h2>
         <div class="d-flex flex-row">
           <img
             class="img-thumbnail rounded-small shadow"
@@ -465,6 +468,5 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-    <script src="./project1.js"></script>
   </body>
 </html>
