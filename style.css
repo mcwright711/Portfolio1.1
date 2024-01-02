@@ -310,9 +310,13 @@ footer {
 .hideme {
   opacity: 0;
 }
+
+/*
 .prototype {
   display: flex;
 }
+*/
+
 section {
   color: white;
   background-color: #333333;

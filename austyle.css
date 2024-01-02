@@ -54,8 +54,9 @@ body {
   /*padding-left: 25px;
   padding-right: 25px;*/
 }
-.Au.row {
-  margin-top: 100px;
+
+.Au {
+  margin-bottom: 100px;
 }
 /*small space between the image and text below*/
 .img-thumbnail {
