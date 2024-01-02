@@ -342,7 +342,7 @@ grid layout with right aside*/
       grid-column: 2/6; 
   }
   .sidebar {
-    grid-column: 6/8; 
+    grid-column: 7/8; 
     background-color: #d8f4f3; 
     margin: 1em; 
     padding: 2em;
@@ -356,4 +356,7 @@ grid layout with right aside*/
     grid-column: 5/8; 
   }
   }
+}
+.bottomaside {
+  margin-top: 3em;
 }
