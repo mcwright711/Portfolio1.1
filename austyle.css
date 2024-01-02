@@ -1,3 +1,7 @@
+body {
+  position: relative; /* Needed for scrollspy */
+}
+
 /*.jumbotron {
   padding-top: 0;
 }*/
@@ -58,7 +62,7 @@
   margin-bottom: 1.5em;
 }
 /*scrollspy styling AU post*/
-#navbar-example2 {
+#navbar-scrollspy {
   /*scroll-margin-top: 141px;*/
   position: sticky;
   top: 136px;
@@ -75,4 +79,18 @@
     display: column;
     
   }*/
+}
+
+/* Offset anchor position so that the header text is not covered by the navbar */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -450px; /* Offset for mobile */
+  visibility: hidden;
+}
+
+@media (min-width: 992px) {
+  a.anchor {
+    top: -250px; /* Offset for desktop */
+  }
 }

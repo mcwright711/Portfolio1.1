@@ -62,7 +62,7 @@
   border-bottom: none;
 }
 /*currrent page highlight*/
-.nav-item.active .nav-link.active {
+.nav-link.active {
   color: #398279;
 }
 .navbar-nav .nav-link:not(.active),
