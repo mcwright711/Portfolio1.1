@@ -22,10 +22,14 @@ $(document).on('mousemove', function (e) {
     left: e.pageX
   });
 });
-navLinks.foreach(link=>)
-function(){
-  $(this).addclass (".link-grow")
-}
+$(".nav-link").on({
+  mouseenter: function () {
+      $(this).addClass("link-grow");
+  },
+  mouseleave: function () {
+      $(this).removeClass("link-grow");
+  }
+});
   // Scrollspy effect
   $("section").scrollspy({ target: "#navbar-example2" });
 });
