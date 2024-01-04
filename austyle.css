@@ -39,7 +39,7 @@
 .cursor {
   width: 2rem;
   height: 2rem;
-  background: #D11D1C;
+  background: #398279;
   border-radius: 50%;
   position: absolute;
   transform: translate (-50%, -50%);
@@ -51,7 +51,8 @@
 }
 .link-grow {
   transform: scale (2);
-  background-color:  transparent;
+  background-color: #FFEBCD;
+  border: 1px #398279;
   border: 1px solid black;
 }
 .caption {
