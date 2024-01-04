@@ -96,7 +96,25 @@ body {
   margin-bottom: 50px;
   font-weight: bolder;
 }
-
+.cursor {
+  width: 2rem;
+  height: 2rem;
+  background: #398279;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate (-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background-color, transform;
+  transform-origin: 100% 100%; 
+  z-index: -1;
+}
+.link-grow {
+  transform: scale (2);
+  background-color: #FFEBCD;
+  border: 1px #398279;
+  border: 1px solid black;
+}
 #list-example {
   list-style: none;
 }

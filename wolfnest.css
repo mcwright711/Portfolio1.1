@@ -133,7 +133,7 @@ span:nth-child(1) {
   }
   @keyframes spin {
     0%, 75% {
-      transform: rotateY(360deg) 
+      transform: rotateY(360deg); 
     }
   }
  /* .focus.animate-on-scroll span {
