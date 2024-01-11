@@ -1,10 +1,25 @@
-/*timeline layout & styling*/
+/**
+ * This CSS file contains styling for the Wolfnest timeline.
+ * 
+ * CSS Classes:
+ * - .item: Represents an item in the timeline. It is a grid container with two rows and one column, and contains an image and content.
+ * - .wrap: Represents the content area of an item. It is a grid item within the .item container.
+ * - .timeline: Represents the timeline container. It is a flex container with a column direction.
+ * - .img: Represents the image container within an item. It is a grid item within the .item container.
+ * 
+ * Media Queries:
+ * - @media screen and (min-width: 1055px): Applies styles for desktop view. Modifies the grid layout and adds a timeline line.
+ */
+
 .item {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "content-left image content-right";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "image"
+    "content";
   align-items: center;
+  justify-items: center;
   position: relative;
   z-index: 2;
 }
@@ -12,13 +27,45 @@
   margin-top: 4rem;
 }
 .wrap {
-  grid-area: content-left;
+  grid-area: content;
   padding: 1rem;
   max-width: 25rem;
 }
-.item:nth-child(even) .wrap {
-  grid-area: content-right;
+
+/*Wolfnest timeline*/
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
+
+/* Desktop view */
+@media screen and (min-width: 1055px) {
+  /* Modify grid layout for desktop view */
+  .item {
+    grid-template-columns: 1fr min-content 1fr;
+    grid-template-areas: "content-left image content-right";
+  }
+  .wrap {
+    grid-area: content-left;
+  }
+  .item:nth-child(even) .wrap {
+    grid-area: content-right;
+  }
+
+  /* Timeline line */
+  .timeline::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0.4rem;
+    height: 100%;
+    background: #888;
+    z-index: 1;
+  }
+}
+
 .img {
   width: 15rem;
   height: 15rem;
@@ -34,22 +81,12 @@
   object-position: center center;
 }
 
-/*Wolfnest timeline*/
-.timeline {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-.timeline::before {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 0.4rem;
-  height: 100%;
-  background: #888;
-  z-index: 1;
-}
+/**
+ * CSS code for animating various effects on selected title elements.
+ * Includes animations for bounce, slide-in, scale, fade-in, spin, focus, squeeze, zoom, and random effects.
+ * Each animation is applied to specific elements using the animate-on-scroll class and the span selector.
+ * Animation durations and delays can be customized using the --i variable defined in the spans.
+ */
 
 .title {
   position: relative;
