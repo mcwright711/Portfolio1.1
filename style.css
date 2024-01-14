@@ -177,7 +177,7 @@ body {
 .intro {
   margin-top: 1em;
   padding: 10px;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   background-color: #a29fa4;
 }
 h1,
@@ -349,17 +349,17 @@ footer {
 }
 */
 
-section {
+.Code {
   color: white;
   background-color: #333333;
   position: relative;
   height: auto;
   overflow-y: scroll;
-  padding: 1em;
+  padding: 1rem;
 }
 /*styling for Branding page. 
 grid layout with right aside*/
-@supports not (display: grid) {
+/*@supports not (display:grid) {
   #branding-page {
     max-width: 50em;
     margin: 0 auto;
@@ -367,38 +367,45 @@ grid layout with right aside*/
 }
 
 @media screen and (min-width: 600px) {
-  @supports (display: grid) {
+  @supports (display: grid){
     #branding-page {
       display: grid;
-      grid-template-columns: 1fr repeat (6, minmax(auto, 10em)) 1fr;
-      grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
-    }
-    .main-content,
-    .sidebar,
-    .twin,
-    .twin2 {
-      margin: 1em;
-      padding: 2em;
-    }
+      /*grid-template-columns: 1fr repeat (6, minmax(auto, 10em)) 1fr;
+      grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);*/
+  /*  }
+   .main-content, .sidebar{
+      /*margin: 1em;*/
+    /*  padding: 1em;
+   /* }
     .main-content {
-      grid-column: 2/6;
-    }
-    .sidebar {
-      grid-column: 8/8;
-      grid-row: 1/2;
-      background-color: #d8f4f3;
-    }
-    .twin {
-      grid-column: 1/5;
-      grid-row: 3/4;
-    }
-    .twin2 {
-      grid-column: 6/8;
-      grid-row: 3/4;
-      text-wrap: wrap;
-    }
+      grid-column: 1/6; 
+      object-fit: contain;
   }
+  .sidebar {
+    grid-column: 8/8; 
+    
+    background-color: #d8f4f3; 
+    object-fit: contain;
+
+  }
+ /* .twin {
+    grid-column: 1/5;
+    grid-row: 2/2;
+  }
+  .twin2 {
+    grid-column: 4/12; 
+    grid-row: 2/2;
+    text-wrap: wrap;
+  }*/
+/*  }
 }
 .bottomaside {
-  margin-top: 3em;
+  padding-top: 1em;
+}*/
+.section {
+  Padding-top: 2em;
+}
+@media (min-width: 768px)
+.order-md-2 {
+  order: 2;
 }
