@@ -14,22 +14,22 @@ $(document).ready(function () {
     }
   );
   //Mousecursor effect on au post pg
-let $mouseCursor = $(".cursor");
+  let $mouseCursor = $(".cursor");
 
-$(document).on('mousemove', function (e) {
-  $mouseCursor.css({
-    top: e.pageY,
-    left: e.pageX
+  $(document).on("mousemove", function (e) {
+    $mouseCursor.css({
+      top: e.pageY,
+      left: e.pageX,
+    });
   });
-});
-//$(".nav-link").on({
+  //$(".nav-link").on({
   //mouseenter: function () {
-    //  $(this).addClass("link-grow");
+  //  $(this).addClass("link-grow");
   //},
   //mouseleave: function () {
-    //  $(this).removeClass("link-grow");
+  //  $(this).removeClass("link-grow");
   //}
-//});
+  //});
   // Scrollspy effect
   $("section").scrollspy({ target: "#navbar-example2" });
 });
