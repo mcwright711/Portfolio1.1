@@ -359,7 +359,7 @@ section {
 }
 /*styling for Branding page. 
 grid layout with right aside*/
-@supports not (display:grid) {
+@supports not (display: grid) {
   #branding-page {
     max-width: 50em;
     margin: 0 auto;
@@ -367,34 +367,36 @@ grid layout with right aside*/
 }
 
 @media screen and (min-width: 600px) {
-  @supports (display: grid){
+  @supports (display: grid) {
     #branding-page {
       display: grid;
       grid-template-columns: 1fr repeat (6, minmax(auto, 10em)) 1fr;
       grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
     }
-    .main-content, .sidebar, .twin, .twin2 {
+    .main-content,
+    .sidebar,
+    .twin,
+    .twin2 {
       margin: 1em;
       padding: 2em;
     }
     .main-content {
-      grid-column: 2/6; 
-  }
-  .sidebar {
-    grid-column: 8/8; 
-    grid-row: 1/2;
-    background-color: #d8f4f3; 
-
-  }
-  .twin {
-    grid-column: 1/5;
-    grid-row: 3/4;
-  }
-  .twin2 {
-    grid-column: 6/8; 
-    grid-row: 3/4;
-    text-wrap: wrap;
-  }
+      grid-column: 2/6;
+    }
+    .sidebar {
+      grid-column: 8/8;
+      grid-row: 1/2;
+      background-color: #d8f4f3;
+    }
+    .twin {
+      grid-column: 1/5;
+      grid-row: 3/4;
+    }
+    .twin2 {
+      grid-column: 6/8;
+      grid-row: 3/4;
+      text-wrap: wrap;
+    }
   }
 }
 .bottomaside {
