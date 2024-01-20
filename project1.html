@@ -1,431 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./austyle.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Australian Post Office Case Study</title>
-  </head>
-  <body data-spy="scroll" data-target="#navbar-scrollspy">
-    <nav
-      class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
-      id="mainav"
-    >
-      <a class="navbar-brand img-fluid"
-        ><img src="./media/MW (2) 1.png" alt="Marla Wright" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html" style="color: black"
-              >About</a
-            >
-          </li>
-          <li class="nav-item dropdown" style="color: #715380">
-            <a
-              class="nav-link dropdown-toggle"
-              style="color: #398279"
-              href="#"
-              role="button"
-              data-toggle="dropdown"
-              aria-expanded="false"
-              style="color: black"
-              >Wright Designs</a
-            >
-            <span class="sr-only">(current) </span>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./wolfnest.html">Wolfnest</a>
-              <a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
-              <a class="dropdown-item disabled" href="#">Au Post</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--informational header-->
-    <!--div class="cursor"></div-->
-    <h1 class="display-3 mt-3">Australia Post Office</h1>
-    <h2>Bootcamp Project</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <nav class="nav-item">
-          <a class="nav-link" href="#item1">Empathize</a>
-        </nav>
-        <nav class="nav-item">
-          <a class="nav-link" href="#item2">Define</a>
-        </nav>
-        <nav class="nav-item">
-          <a class="nav-link" href="#item3">Ideate</a>
-        </nav>
-        <nav class="nav-item">
-          <a class="nav-link" href="#item4">Prototype</a>
-        </nav>
-        <nav class="nav-item">
-          <a class="nav-link" href="#item5">Test</a>
-        </nav>
-      </div>
-    </nav>
-    <div class="container-fluid">
-      <img
-        src="./media/Wolfnestfigma (4).png"
-        alt="Australia post office homepage before and after"
-        width="100%"
-      />
-      <div class="intro bg-light rounded">
-        <h3>Project Overview</h3>
-        <p>
-          Problems: Website megamenu is repetitive, CTA buttons are below the
-          fold of the page, and the footer menu is overwhelming.
-        </p>
-        <break></break>
-        <p>
-          Proposed Solution: After researching with usability tests, redesign
-          the Australia Post Office homepage using UX best practices.
-        </p>
-      </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./austyle.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Australian Post Office Case Study</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-scrollspy">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="mainav">
+    <a href="./index.html" class="navbar-brand img-fluid logo"><img src="./media/MW (2) 1.png"
+        alt="Marla Wright Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html" style="color: black">About</a>
+        </li>
+        <li class="nav-item dropdown" style="color: #715380">
+          <a class="nav-link dropdown-toggle" style="color: #398279" href="#" role="button" data-toggle="dropdown"
+            aria-expanded="false" style="color: black">Wright Designs</a>
+          <span class="sr-only">(current) </span>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./wolfnest.html">Wolfnest</a>
+            <a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
+            <a class="dropdown-item disabled" href="#">Au Post</a>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="content">
+  </nav>
+  <!--informational header-->
+  <!--div class="cursor"></div-->
+  <h1 class="display-3 mt-3"><b>Australia Post Office</b></h1>
+  <h2>Custom Bootcamp Project</h2>
+
+  <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <nav class="nav-item">
+        <a class="nav-link" href="#item1">Empathize</a>
+      </nav>
+      <nav class="nav-item">
+        <a class="nav-link" href="#item2">Define</a>
+      </nav>
+      <nav class="nav-item">
+        <a class="nav-link" href="#item3">Ideate</a>
+      </nav>
+      <nav class="nav-item">
+        <a class="nav-link" href="#item4">Prototype</a>
+      </nav>
+      <nav class="nav-item">
+        <a class="nav-link" href="#item5">Test</a>
+      </nav>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <img src="./media/Wolfnestfigma (4).png" alt="Australia post office homepage Transformation" width="100%" />
+    <div class="intro bg-light rounded">
+      <h3><b>Project Overview</b></h3>
+      <p class="mb-2">
+        Problems: Website megamenu is repetitive, CTA buttons are below the
+        fold of the page, and the footer menu is overwhelming.
+      </p>
+      <break></break>
+      <p>
+        Proposed Solution: After researching with usability tests, redesign
+        the Australia Post Office homepage using UX best practices.
+      </p>
+    </div>
+  </div>
+  <div class="content">
+    <div class="Au container">
+      <a class="anchor" id="item1"></a>
+      <h2>Empathize</h2>
+      <img src="media/Au Post above the fold2.png" class="img-thumbnail rounded-small shadow"
+        alt="Australia Post homepage with postal services" />
+      <imgcaption>Fig. 1 - AuPost Homepage with main navigation and Hero
+        image</imgcaption>
+      <ul>
+        <li>Government websites are notorious for having poor user design</li>
+        <li>Causing user frustration navigating the site</li>
+      </ul>
+    </div>
+    <div class="Au container">
+      <h3>Proto-Persona</h3>
+      <div>
+        <img src="./media/au-post-proto-persona.jpg" alt="Redesign Proto-Persona Concept" style="margin-bottom: 25px"
+          class="img-fluid" />
+      </div>
+
+      <imgcaption>Fig. 2 - Proto-Persona, Ken, small business owner</imgcaption>
+
+      <ul>
+        <li>
+          Ken owns a small printing business in Australia, where he resides
+        </li>
+        <li>
+          As Ken's business has grown, his need for using the postal service
+          has grown
+        </li>
+        <li>The current website feels convoluted and hard to navigate</li>
+        <li>
+          <em>Note: I plan to continue researching what users actually use the
+            post office for and where their pain points lie.</em>
+        </li>
+      </ul>
+    </div>
+    <div class="Au container">
+      <h3>Usability Testing</h3>
+      <img class="img-thumbnail rounded-small mr-auto shadow" src="./media/clippedpainpoints.png"
+        alt="Enhanced iconography, clearer navigation, and CTA buttons" />
+      <imgcaption>Fig. 3 - Pain points from Affinity Diagram</imgcaption>
+      <div>
+        <strong>Goal: </strong>To better understand
+        <strong>where users struggle</strong> using the Australia Post Office
+        website, which parts<strong> aren't functional,</strong> and
+        <strong>where the site can be improved.</strong>
+      </div>
       <div class="Au container">
-        <a class="anchor" id="item1"></a>
-        <h2>Empathize</h2>
-        <img
-          src="media/Au Post above the fold2.png"
-          class="img-thumbnail rounded-small shadow"
-          alt="Australia post office homepage"
-        />
-        <imgcaption
-          >Fig. 1 - AuPost Homepage with main navigation and Hero
-          image</imgcaption
-        >
+        <h3>Heuristic Evaluation & Accessibility</h3>
+        <img src="./media/Heuristic_Eval_artifact_1_optimized.jpg" alt="heuristic evaluation table"
+          class="img-thumbnail" />
+        <imgcaption>Fig. 4 - Heuristic Evaluation Findings</imgcaption>
+
         <ul>
-          <li>Government websites are notorious for having poor user design</li>
-          <li>Causing user frustration navigating the site</li>
+          <li>The biggest issue was its accessibility and performance</li>
+          <li>
+            On The Lighthouse report, the homepage scored 50% in performance
+          </li>
+          <li>
+            From my own research using the 6 main colors,
+            <strong>
+              the homepage had a 60% failure rate for color contrast
+              accessibility. </strong><a
+              href="https://docs.google.com/document/d/1l0A5y9Z8o1qSMFwNXmfq9iB7bsAolx5JOa9MxtEXkR8/edit?usp=sharing">See
+              color audit</a>
+          </li>
         </ul>
       </div>
       <div class="Au container">
-        <h3>Proto-Persona</h3>
         <div>
-          <img
-            src="./media/au-post-proto-persona.jpg"
-            alt="proto-persona for Australia Post Office Redesign"
-            style="margin-bottom: 25px"
-            class="img-fluid"
-          />
-        </div>
-
-        <imgcaption
-          >Fig. 2 - Proto-Persona, Ken, small business owner</imgcaption
-        >
-
-        <ul>
-          <li>
-            Ken owns a small printing business in Australia, where he resides
-          </li>
-          <li>
-            As Ken's business has grown, his need for using the postal service
-            has grown
-          </li>
-          <li>The current website feels convoluted and hard to navigate</li>
-          <li>
-            <em
-              >Note: I plan to continue researching what users actually use the
-              post office for and where their pain points lie.</em
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="Au container">
-        <h3>Usability Testing</h3>
-        <img
-          class="img-thumbnail rounded-small mr-auto shadow"
-          src="./media/clippedpainpoints.png"
-          alt="Users wished there was more iconography and clearer navigation as well as CTA buttons."
-        />
-        <imgcaption>Fig. 3 - Pain points from Affinity Diagram</imgcaption>
-        <div>
-          <strong>Goal: </strong>To better understand
-          <strong>where users struggle</strong> using the Australia Post Office
-          website, which parts<strong> aren't functional,</strong> and
-          <strong>where the site can be improved.</strong>
-        </div>
-        <div class="Au container">
-          <h3>Heuristic Evaluation & Accessibility</h3>
-          <img
-            src="./media/Heuristic_Eval_artifact_1_optimized.jpg"
-            alt="heuristic evaluation table"
-            class="img-thumbnail"
-          />
-          <imgcaption>Fig. 4 - Heuristic Evaluation Findings</imgcaption>
-
-          <ul>
-            <li>The biggest issue was its accessibility and performance</li>
+          <a class="anchor" id="item2"></a>
+          <h2>Define</h2>
+          <h3>Card Sort</h3>
+          <div>
+            <img class="img-thumbnail rounded-small shadow" src="media/cardsortau.png"
+              alt="Deliver L1 and L2. Id and Doc Services L1 and L2" />
+            <imgcaption>Fig. 5 - Navigation Card Sort</imgcaption>
+          </div>
+          <ol>
             <li>
-              On The Lighthouse report, the homepage scored 50% in performance
+              Users were frustrated that there were multiple ways to carry out
+              an action within the megamenu.
             </li>
             <li>
-              From my own research using the 6 main colors,
-              <strong>
-                the homepage had a 60% failure rate for color contrast
-                accessibility. </strong
-              ><a
-                href="https://docs.google.com/document/d/1l0A5y9Z8o1qSMFwNXmfq9iB7bsAolx5JOa9MxtEXkR8/edit?usp=sharing"
-                >See color audit</a
-              >
+              I sorted all of the L1, and L2 options, deleted duplicates, and
+              tried to group items more intuitively.
             </li>
-          </ul>
+            <li>
+              <em>(In hindsight, it would have been more beneficial to engage
+                users at this point of the research.)</em>
+            </li>
+          </ol>
         </div>
-        <div class="Au container">
-          <div>
-            <a class="anchor" id="item2"></a>
-            <h2>Define</h2>
-            <h3>Card Sort</h3>
-            <div>
-              <img
-                class="img-thumbnail rounded-small shadow"
-                src="media/cardsortau.png"
-                alt="Deliver L1 and L2. Id and Doc Services L1 and L2"
-              />
-              <imgcaption>Fig. 5 - Navigation Card Sort</imgcaption>
-            </div>
-            <ol>
-              <li>
-                Users were frustrated that there were multiple ways to carry out
-                an action within the megamenu.
-              </li>
-              <li>
-                I sorted all of the L1, and L2 options, deleted duplicates, and
-                tried to group items more intuitively.
-              </li>
-              <li>
-                <em
-                  >(In hindsight, it would have been more beneficial to engage
-                  users at this point of the research.)</em
-                >
-              </li>
-            </ol>
-          </div>
-        </div>
-        <div class="Au container">
-          <h3 class="text-nowrap">Updated Site Map</h3>
-          <div>
-            <img
-              class="img-thumbnail shadow rounded"
-              src="media/sitemap.png"
-              alt="site map L1 collect mail and L1 Post mail"
-            />
-            <div></div>
-            <imgcaption>Fig. 6 - Revised Site Map</imgcaption>
-          </div>
-        </div>
-        To improve navigation
-        <ul>
-          <li>I nested many items farther than L2</li>
-          <li>deleted the 'Tools' section</li>
-          <li>created a CTA bar that was visible above the fold.</li>
-        </ul>
       </div>
-
       <div class="Au container">
-        <a class="anchor" id="item3"></a>
-        <h2>Ideate</h2>
-        <div class="d-flex flex-row">
-          <img
-            class="card-img rounded-small mr-auto shadow"
-            src="media/au web nav lofi.png"
-            style="margin-bottom: 10px"
-            alt="web lo-fidelity navigation"
-          />
-        </div>
-        <div class="d-flex flex-row">
-          <img
-            class="card-img rounded-small mr-auto shadow"
-            src="media/auwebnavlofi.png"
-            style="margin-bottom: 10px"
-            alt="web lo-fidelity navigation"
-          />
-        </div>
-        <div class="d-flex flex-row">
-          <img
-            class="card-img w-100 rounded-small mr-auto shadow"
-            src="media/auwebnavhifi.png"
-            style="margin-bottom: 10px"
-            alt="web hi-fidelity navigation"
-          />
-        </div>
-        <div class="d-flex flex-row">
-          <img
-            class="img-thumbnail w-25 rounded-small shadow"
-            src="media/iPhone 14 Pro - 1 (1).png"
-            alt="lo-fidelity mobile navigation"
-          />
-          <img
-            class="img-thumbnail rounded-small shadow w-25"
-            src="media/aumobilenavhifi2.png"
-            alt="hi-fidelity mobile navigation"
-            style="margin-bottom: 25px"
-          />
-        </div>
-        <imgcaption>Fig. 7-11 - Mobile & Web Navigation Iterations</imgcaption>
+        <h3 class="text-nowrap">Updated Site Map</h3>
         <div>
-          <p>
-            My efforts were concentrated on the
-            <strong> main navigation</strong> for desktop and mobile views. It
-            went through multiple iterations before I was happy with the design.
-            It was <strong>important for it to be responsive. </strong>
-          </p>
+          <img class="img-thumbnail shadow rounded" src="media/sitemap.png"
+            alt="site map L1 collect mail and L1 Post mail" />
+          <div></div>
+          <imgcaption>Fig. 6 - Revised Site Map</imgcaption>
         </div>
       </div>
-      <div class="Au container">
-        <a class="anchor" id="item4"></a>
-        <h2>Prototype</h2>
+      To improve navigation
+      <ul>
+        <li>I nested many items farther than L2</li>
+        <li>deleted the 'Tools' section</li>
+        <li>created a CTA bar that was visible above the fold.</li>
+      </ul>
+    </div>
 
-        <img
-          class="img-thumbnail shadow rounded"
-          src="media/auprototype.png"
-          alt="navigatin and interaction prototyping of mobile page"
-        />
-        <imgcaption>Fig. 12 - Hi-Fidelity Final Prototype</imgcaption>
-
-        <ul>
-          <li>
-            The original homepage felt <strong>very text heavy </strong>and I
-            wanted to make it feel more <strong>intuitive.</strong>
-          </li>
-          <li>
-            I got rid of the horizontal cards and created a
-            <strong>simple grid of cards.</strong>
-          </li>
-        </ul>
+    <div class="Au container">
+      <a class="anchor" id="item3"></a>
+      <h2>Ideate</h2>
+      <div class="d-flex flex-row">
+        <img class="card-img rounded-small mr-auto shadow" src="media/au web nav lofi.png" style="margin-bottom: 10px"
+          alt="Low-fi Web Navigation" />
       </div>
-      <div class="Au container">
-        <a class="anchor" id="item5"></a>
-        <h2>Test</h2>
-        <div class="d-flex flex-row">
-          <img
-            class="img-thumbnail rounded-small shadow"
-            src="media/original_au_navigation.png"
-            style="margin-bottom: 10px"
-            alt="Navigation: receiving, sending, money & insurance, ID & Doc services, Shop"
-          />
-        </div>
-        <div class="d-flex flex-row">
-          <img
-            class="img-thumbnail rounded-small shadow"
-            src="media/auwebnavhifi.png"
-            style="margin-bottom: 25px"
-            alt="Redesigned navigation: Search, Send post, collect post,  shop online, money & Insurance, ID & Services"
-          />
-        </div>
-        <Imgcaption>Fig. 13-14 - A/B Navigation Testing</Imgcaption>
-
+      <div class="d-flex flex-row">
+        <img class="card-img rounded-small mr-auto shadow" src="media/auwebnavlofi.png" style="margin-bottom: 10px"
+          alt="Low-fi Web Navigation" />
+      </div>
+      <div class="d-flex flex-row">
+        <img class="card-img w-100 rounded-small mr-auto shadow" src="media/auwebnavhifi.png"
+          style="margin-bottom: 10px" alt="High-Fidelity Web Navigation" />
+      </div>
+      <div class="d-flex flex-row">
+        <img class="img-thumbnail w-25 rounded-small shadow" src="media/iPhone 14 Pro - 1 (1).png"
+          alt="Low-fi Mobile Navigation" />
+        <img class="img-thumbnail rounded-small shadow w-25" src="media/aumobilenavhifi2.png"
+          alt="High-Fidelity Mobile Navigation" style="margin-bottom: 25px" />
+      </div>
+      <imgcaption>Fig. 7-11 - Mobile & Web Navigation Iterations</imgcaption>
+      <div>
         <p>
-          It made the most sense to conduct A/B testing against the original
-          desktop navigation bar and my redesigned desktop navigation bar.
+          My efforts were concentrated on the
+          <strong> main navigation</strong> for desktop and mobile views. It
+          went through multiple iterations before I was happy with the design.
+          It was <strong>important for it to be responsive. </strong>
         </p>
-        <ul style="margin-bottom: 4em">
-          <li>Due to time constraints, only two A/B tests were completed.</li>
-          <li>
-            50% of users utilized the "Tools" sections in the original
-            navigation and 50% did not.
-          </li>
-          <li>
-            <strong
-              >Some key insights were to continue iterating on the L1 titles as
-              well as the CTA bar copy.</strong
-            >
-          </li>
-          <li>
-            You can see my A/B Testing plan
-            <a
-              href="https://docs.google.com/document/d/1_K16IL2uEKZmMB781AHQN7NNUVa_LsD4PBW1S41xL6c/edit?usp=sharing"
-              >here.</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="Au container">
-        <h2>Empathize</h2>
-        <ul>
-          <li>
-            Using Facebook poll, I asked friends what they used the Post Office
-            website for the most. One answer I was not expecting was to
-            <strong>"look up postal codes"</strong> and added that to the main
-            CTA bar.
-          </li>
-          <li>
-            From another card sort (hybrid) I combined "Send Post" and "Collect
-            Post" into <strong>"Manage your Mail." </strong>
-          </li>
-          <li>
-            Based on the results of the card sort I also
-            <strong> nested more items farther than L2.</strong>
-          </li>
-          <li>
-            Finally, I conducted an informal
-            <strong>competitor analysis</strong> and updated the UI and color
-            palette <strong>to be more on trend.</strong>
-          </li>
-          <li>Stay tuned for more <strong>Testing</strong></li>
-        </ul>
-      </div>
-      <div class="Au container">
-        <h2>Prototype</h2>
       </div>
     </div>
-    <div class="container-fluid" style="max-width: 1370px">
-      <iframe
-        style="border: 1px solid rgba(214, 208, 208, 0.1)"
-        width="100%vw"
-        height="800"
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYAtBESjAv7eEbdPlvujZHX%2FAu-Post-designs%3Ftype%3Ddesign%26node-id%3D660-1200%26t%3DzfIh5gR59maz445R-1%26scaling%3Dmin-zoom%26page-id%3D109%253A442%26starting-point-node-id%3D110%253A724%26mode%3Ddesign"
-        allowfullscreen
-      ></iframe>
+    <div class="Au container">
+      <a class="anchor" id="item4"></a>
+      <h2>Prototype</h2>
+
+      <img class="img-thumbnail shadow rounded" src="media/auprototype.png"
+        alt="Mobile UX Prototype: Page navigation and interaction design." />
+      <imgcaption>Fig. 12 - Hi-Fidelity Final Prototype</imgcaption>
+
+      <ul>
+        <li>
+          The original homepage felt <strong>very text heavy </strong>and I
+          wanted to make it feel more <strong>intuitive.</strong>
+        </li>
+        <li>
+          I got rid of the horizontal cards and created a
+          <strong>simple grid of cards.</strong>
+        </li>
+      </ul>
     </div>
+    <div class="Au container">
+      <a class="anchor" id="item5"></a>
+      <h2>Test</h2>
+      <div class="d-flex flex-row">
+        <img class="img-thumbnail rounded-small shadow" src="media/original_au_navigation.png"
+          style="margin-bottom: 10px" alt="Menu options: Receive, Send, Money & Insurance, ID & Doc Services, Shop." />
+      </div>
+      <div class="d-flex flex-row">
+        <img class="img-thumbnail rounded-small shadow" src="media/auwebnavhifi.png" style="margin-bottom: 25px"
+          alt="Redesigned navigation: Search, Send post, collect post,  shop online, money & Insurance, ID & Services" />
+      </div>
+      <Imgcaption>Fig. 13-14 - A/B Navigation Testing</Imgcaption>
 
-    <!--/div-->
+      <p>
+        It made the most sense to conduct A/B testing against the original
+        desktop navigation bar and my redesigned desktop navigation bar.
+      </p>
+      <ul style="margin-bottom: 4em">
+        <li>Due to time constraints, only two A/B tests were completed.</li>
+        <li>
+          50% of users utilized the "Tools" sections in the original
+          navigation and 50% did not.
+        </li>
+        <li>
+          <strong>Some key insights were to continue iterating on the L1 titles as
+            well as the CTA bar copy.</strong>
+        </li>
+        <li>
+          You can see my A/B Testing plan
+          <a
+            href="https://docs.google.com/document/d/1_K16IL2uEKZmMB781AHQN7NNUVa_LsD4PBW1S41xL6c/edit?usp=sharing">here.</a>
+        </li>
+      </ul>
+    </div>
+    <div class="Au container">
+      <h2>Empathize</h2>
+      <ul>
+        <li>
+          Using Facebook poll, I asked friends what they used the Post Office
+          website for the most. One answer I was not expecting was to
+          <strong>"look up postal codes"</strong> and added that to the main
+          CTA bar.
+        </li>
+        <li>
+          From another card sort (hybrid) I combined "Send Post" and "Collect
+          Post" into <strong>"Manage your Mail." </strong>
+        </li>
+        <li>
+          Based on the results of the card sort I also
+          <strong> nested more items farther than L2.</strong>
+        </li>
+        <li>
+          Finally, I conducted an informal
+          <strong>competitor analysis</strong> and updated the UI and color
+          palette <strong>to be more on trend.</strong>
+        </li>
+        <li>Stay tuned for more <strong>Testing</strong></li>
+      </ul>
+    </div>
+    <div class="Au container">
+      <h2>Prototype</h2>
+    </div>
+  </div>
+  <div class="container-fluid" style="max-width: 1370px">
+    <iframe style="border: 1px solid rgba(214, 208, 208, 0.1)" width="100%vw" height="800"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYAtBESjAv7eEbdPlvujZHX%2FAu-Post-designs%3Ftype%3Ddesign%26node-id%3D660-1200%26t%3DzfIh5gR59maz445R-1%26scaling%3Dmin-zoom%26page-id%3D109%253A442%26starting-point-node-id%3D110%253A724%26mode%3Ddesign"
+      allowfullscreen></iframe>
+  </div>
 
-    <!--div class="container">
+  <!--/div-->
+
+  <!--div class="container">
       <div class="row">
       <h5 class="col-sm ml-3 pb-2">Contact</h5>
       <h5 class="col-sm ml-3 pb-2">Credits</h5></div>
@@ -439,30 +338,25 @@
         </div>
       </div> 
       </div-->
-    <footer>
-      <div class="d-flex justify-content-center">
-        <div class="row row-cols-1">
-          <div class="col-md-auto">
-            <h5 class="text-center">Contact</h5>
-            <p>marla.christine.wright@gmail.com</p>
-            <a
-              href="https://www.linkedin.com/in/marla-c-wright"
-              style="color: black"
-              >linkedin.com/in/marla-c-wright</a
-            >
-          </div>
+  <footer>
+    <div class="d-flex justify-content-center">
+      <div class="row row-cols-1">
+        <div class="col-md-auto">
+          <h5 class="text-center">Contact <img src="./media/right-arrow.svg" alt=""></h5>
+          <p><b>Gmail</b><span> <a href="https://mail.google.com/" style="color: black" target="_blank">:
+                marla.christine.wright@gmail.com</a></span></p>
+          <a href="https://www.linkedin.com/in/marla-c-wright" style="color: black"
+            target="_blank"><span><b>Linkedin</b></span> : linkedin.com/in/marla-c-wright</a>
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
