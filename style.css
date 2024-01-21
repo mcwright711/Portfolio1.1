@@ -403,9 +403,13 @@ grid layout with right aside*/
 .bottomaside {
   padding-top: 1em;
 }*/
+#ssta {
+  margin-bottom: 2em;
+}
 .section {
   padding-top: 2em;
 }
+<<<<<<< Updated upstream
 @media (min-width: 768px) .order-md-2 {
   order: 2;
 }
@@ -449,3 +453,11 @@ footer .col-md-auto {
 footer p {
   margin-bottom: 0;
 }
+=======
+/*@media screen (min-width: 768px){
+.order-md-2 {
+  order: 2;
+}
+}*/
+
+>>>>>>> Stashed changes
