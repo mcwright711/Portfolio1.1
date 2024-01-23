@@ -21,54 +21,52 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-  <nav
-    class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
-    id="mainav"
-  >
-    <a href="./index.html" class="navbar-brand logo"
-      ><img src="./media/MW (2) 1.png" alt="Marla Wright Logo"
-    /></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
+      id="mainav"
     >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link active" href="#"
-            >About</a
+      <a href="./index.html" class="navbar-brand logo"
+        ><img src="./media/MW (2) 1.png" alt="Marla Wright Logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">About</a
             ><span class="sr-only">(current)</span>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-toggle="dropdown"
-            aria-expanded="false"
-            >Wright Designs</a
-          >
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="./wolfnest.html">Wolfnest</a>
-            <a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
-            <a class="dropdown-item" href="./project1.html">Au Post</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+              >Wright Designs</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./wolfnest.html">Wolfnest</a>
+              <a class="dropdown-item" href="./Brand.html">The Wright Brand</a>
+              <a class="dropdown-item" href="./project1.html">Au Post</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  
     <!--div class="cursor"></div-->
     <h1 class="display-3 mt-3"><b>About Me</b></h1>
     <div class="container">
@@ -260,11 +258,18 @@
       <div class="d-flex justify-content-center">
         <div class="row row-cols-1">
           <div class="col-md-auto">
-            <h5 class="text-center"><a href="https://www.linkedin.com/in/marla-c-wright" style="color: black"
-              target="_blank"><span><b>Linkedin</b></span> : linkedin.com/in/marla-c-wright</a></h5> <!--img src="./media/right-arrow.svg" alt=""-->
+            <h5 class="text-center">
+              <a
+                href="https://www.linkedin.com/in/marla-c-wright"
+                style="color: black"
+                target="_blank"
+                ><span><b>Linkedin</b></span> :
+                linkedin.com/in/marla-c-wright</a
+              >
+            </h5>
+            <!--img src="./media/right-arrow.svg" alt=""-->
             <!--p><b>Gmail</b><span> <a href="https://mail.google.com/" style="color: black" target="_blank">:
                   marla.christine.wright@gmail.com</a></span></p-->
-            
           </div>
         </div>
       </div>
@@ -274,40 +279,32 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-    <script src="./project1.js"></script>
+    <!-- yes jquery is linked twice. it works, dont touch it -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+      integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
-      ;(function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            ;(c[a].q = c[a].q || []).push(arguments)
-          }
-        t = l.createElement(r)
-        t.async = 1
-        t.src = 'https://www.clarity.ms/tag/' + i
-        y = l.getElementsByTagName(r)[0]
-        y.parentNode.insertBefore(t, y)
-      })(window, document, 'clarity', 'script', 'h206cxa4ny')
-
       $(document).ready(function () {
         // Fade in the .card-columns element on page load
-        $('.card-columns').fadeIn('slow')
-      })
+        $(".card-columns").fadeIn("slow");
+      });
 
       /* Every time the window is scrolled ... */
       $(window).scroll(function () {
         /* Check the location of each desired element */
-        $('.hideme').each(function (i) {
-          var top_of_object = $(this).offset().top
-          var bottom_of_window = $(window).scrollTop() + $(window).height()
+        $(".hideme").each(function (i) {
+          var top_of_object = $(this).offset().top;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
 
           /* If the object is completely visible in the window, fade it in */
           if (top_of_object < bottom_of_window) {
-            $(this).animate({ opacity: '1' }, 1500)
+            $(this).animate({ opacity: "1" }, 1500);
           }
-        })
-      })
+        });
+      });
     </script>
   </body>
 </html>
