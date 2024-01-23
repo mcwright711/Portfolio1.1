@@ -420,17 +420,6 @@ grid layout with right aside*/
   width: 60% !important;
 }
 
-.home .card {
-  /* padding: 1rem 0; */
-  overflow: hidden;
-  height: 100% !important;
-}
-
-.home .card-body {
-  padding: 0 !important;
-  overflow: hidden;
-}
-
 footer h5 {
   font-weight: 700;
   display: flex;
