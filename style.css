@@ -250,7 +250,7 @@ h3 {
 }
 /*Project hover effect*/
 .project-thumbnail:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 /*Homepage cards*/
 .project-name {
@@ -259,22 +259,15 @@ h3 {
   justify-content: center;
 }
 .project-title {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--dark-grey);
   font-weight: normal;
-  text-align: center;
-  font-weight: 600;
-}
-.project-name h5 {
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: center;
 }
 /*Homepage cards styling*/
 .column.home {
   float: left;
   padding: 10px;
-  gap: 1rem !important;
+  gap: 4em;
 }
 .column.home.side {
   width: 33%;
@@ -334,10 +327,12 @@ footer {
 }
 /*wolfnest timeline and homepage cards*/
 .project-thumbnail {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
-  height: 100%;
-  transition: all 0.5s ease-in-out;
+  height: 50%%;
+  transition: 0.2s ease;
+  transition-property: all;
+  transition-property: transform;
 }
 
 /*fade in effect*/
@@ -409,16 +404,15 @@ grid layout with right aside*/
 .section {
   padding-top: 2em;
 }
-<<<<<<< Updated upstream
 @media (min-width: 768px) .order-md-2 {
   order: 2;
 }
 
 /* custom css */
 
-.logo img {
+/*.logo img {
   width: 60% !important;
-}
+}*/
 
 footer h5 {
   font-weight: 700;
@@ -442,11 +436,9 @@ footer .col-md-auto {
 footer p {
   margin-bottom: 0;
 }
-=======
 /*@media screen (min-width: 768px){
 .order-md-2 {
   order: 2;
 }
 }*/
 
->>>>>>> Stashed changes
