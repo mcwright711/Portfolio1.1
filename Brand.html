@@ -4,7 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <!-- yes jquery is linked twice. it works, dont touch it -->
+  <script
+  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+  crossorigin="anonymous"
+></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,35 +22,52 @@
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="mainav">
-    <a href="./index.html" class="navbar-brand img-fluid logo"><img src="./media/MW (2) 1.png"
-        alt="Marla Wright Logo" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html" style="color: black">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html" style="color: black">About</a>
-        </li>
-        <li class="nav-item dropdown" style="color: #715380">
-          <a class="nav-link dropdown-toggle" style="color: #398279" href="#" role="button" data-toggle="dropdown"
-            aria-expanded="false" style="color: black">Wright Designs</a>
-          <span class="sr-only">(current) </span>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="./wolfnest.html">Wolfnest</a>
-            <a class="dropdown-item disabled" href="#">The Wright Brand</a>
-            <a class="dropdown-item" href="./project1.html">Au Post</a>
-          </div>
-        </li>
-      </ul>
+  <nav
+  class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
+  id="mainav"
+>
+<a href="./index.html" class="navbar-brand logo"
+><img src="./media/MW (2) 1.png" alt="Marla Wright Logo"
+/></a>
+<button
+class="navbar-toggler"
+type="button"
+data-toggle="collapse"
+data-target="#navbarTogglerDemo02"
+aria-controls="navbarTogglerDemo02"
+aria-expanded="false"
+aria-label="Toggle navigation"
+>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a
+    >
+
+  </li>
+  <li class="nav-item dropdown">
+    <a
+      class="nav-link dropdown-toggle"
+      href="#"
+      role="button"
+      data-toggle="dropdown"
+      aria-expanded="false"
+      >Wright Designs</a
+    >
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="./wolfnest.html">Wolfnest</a>
+      <a class="dropdown-item disabled" href="#">The Wright Brand</a><span class="sr-only">(current)</span>
+      <a class="dropdown-item" href="./project1.html">Au Post</a>
     </div>
-  </nav>
+  </li>
+</ul>
+</div>
+</nav>
   <div class="text-center">
     <h1 class="display-3 mt-3"><b>The Wright Brand</b></h1>
     <h2 style="margin-bottom: 50px">Custom Creation</h2>
@@ -150,33 +172,41 @@
     <div class="d-flex justify-content-center">
       <div class="row row-cols-1">
         <div class="col-md-auto">
-          <h5 class="text-center"><a href="https://www.linkedin.com/in/marla-c-wright" style="color: black"
-            target="_blank"><span><b>Linkedin</b></span> : linkedin.com/in/marla-c-wright</a></h5> <!--img src="./media/right-arrow.svg" alt=""-->
+          <h5 class="text-center">
+            <a
+              href="https://www.linkedin.com/in/marla-c-wright"
+              style="color: black"
+              target="_blank"
+              ><span><b>Linkedin</b></span> :
+              linkedin.com/in/marla-c-wright</a
+            >
+          </h5>
+          <!--img src="./media/right-arrow.svg" alt=""-->
           <!--p><b>Gmail</b><span> <a href="https://mail.google.com/" style="color: black" target="_blank">:
                 marla.christine.wright@gmail.com</a></span></p-->
         </div>
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
+ 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+     <!-- yes jquery is linked twice. it works, dont touch it -->
+     <script
+     src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+     integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+     crossorigin="anonymous"
+   ></script>
+ 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="./project1.js"></script>
-  <!--script type="text/javascript">
-      (function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = "https://www.clarity.ms/tag/" + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, "clarity", "script", "h206cxa4ny");
-    </script-->
+  <script type="text/javascript"></script>
+  </body>
+  </html>
+
+
     <!--link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -258,7 +288,7 @@
         width="100%"
       />
       <div class="intro bg-light rounded" style="margin-bottom: 100px">
-        <!--div class="cursor"></div>
+        <-div class="cursor"></div>
         <h3 style="padding-top: 20px">Project Overview</h3>
         <p>
           Problem: The UX Research & Design field is growing steadily and
@@ -334,7 +364,7 @@
     
         <h4 class="section">Test</h4>
         <p>As I continued to design, I noticed many inconsistencies and bugs. When I became too frustrated due to my novice experience, I hired a few developers on <a href="https://www.fiverr.com/?source=top_nav">fiverr</a> to help me complete my portfolio.</p>
-        <!--div id="ssta">
+        <div id="ssta">
                   <h4 class="section" >
           <ul>
             Soft-Skill Take-away's
@@ -407,6 +437,6 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-    <script src="./project1.js"></script!-->
+    <script src="./project1.js"></script!>
   </body>
-</html>
+</html!-->
